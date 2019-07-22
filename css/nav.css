@@ -1,0 +1,132 @@
+.nav-logo {
+    width: 1200px;
+    padding:40 60px;
+    position: absolute;
+    z-index: 1000;
+    top:20px;
+    left: 0px;
+}
+.nav-logo .logo {
+    float:left;
+    font-size:14px;
+}
+.nav-logo .logo {
+    float:left
+}
+.nav-logo .logo img{
+    float:left
+}
+.nav-logo .logo .logo-title{
+    float:left;
+    padding-left: 20px;
+    color:#fff;
+}
+.navBar {
+  background: #03040759;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 20px;
+  float: right;
+}
+.nav {
+  width: 600px;
+  /* margin: 0 auto; */
+  font-family: "Microsoft YaHei", SimSun, SimHei;
+}
+.nav h3 {
+  font-size: 100%;
+  font-weight: normal;
+  font-size: 14px;
+}
+.nav .m {
+  position: relative;
+  float: left;
+  margin: 0 30px;
+  display: inline;
+  /* text-align: center; */
+}
+.nav .m h3 i {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 7px;
+  height: 4px;
+  /* background: url(images/icon.png) 0 -280px no-repeat; */
+  overflow: hidden;
+  margin: -2px 0 0 5px;
+  vertical-align: middle;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+.nav h3 a {
+  zoom: 1;
+  height: 16px;
+  line-height: 16px;
+  padding: 12px 0;
+  display: block;
+  color: #fff;
+}
+.nav .on h3 a {
+  padding: 11px 0;
+  border-bottom: 2px solid #fd625c;
+}
+.nav .on h3 a i {
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+.nav .sub {
+  display: none; 
+  width: 108px;
+  padding: 10px 0;
+  position: absolute;
+  /* left: -20px; */
+  top: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000); 
+  float: left;
+  line-height: 30px;
+}
+.nav .sub li {
+  text-align: center;
+}
+.nav .sub li a {
+    color: #b9b9b9;
+  display: block;
+  zoom: 1;
+}
+.nav .sub li a:hover {
+  background: rgba(0, 0, 0, 0.5);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000); 
+  color: #fd625c;
+}
+.nav .sub dl {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+  padding: 15px 29px;
+  line-height: 26px;
+}
+.nav .sub dl a:hover {
+  color: #fd625c;
+}
+.nav .sub dl dd  {
+    padding-top: 5px;
+  }
+.nav .sub dl .title {
+  color: #fff;
+  font-size:16px;
+}
+.nav .sub dl dd a {
+  color: #b9b9b9;
+  font-size:12px;
+}
+
+.nav #m2 .sub {
+  z-index: 1;
+  width: 600px;
+  left: -118px;
+}
