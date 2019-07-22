@@ -1,0 +1,25 @@
+.txtMarquee-top {
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+.txtMarquee-top .bd {
+  padding: 15px;
+}
+.txtMarquee-top .infoList li {
+  height: 24px;
+  line-height: 24px;
+}
+.txtMarquee-top .infoList li {
+  height: 24px;
+  line-height: 24px;
+}
+.txtMarquee-top .icon {
+  border: 1px solid #e74854;
+  border-radius: 2px;
+  color: #e74854;
+  font-size: 12px;
+  margin-left: 5px;
+  padding: 2px;
+}

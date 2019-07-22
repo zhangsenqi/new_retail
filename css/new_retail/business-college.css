@@ -1,0 +1,25 @@
+.business-college{height: 950px;}
+.slideTxtBox{  height:950px; overflow:hidden;  text-align:center; }
+.slideTxtBox .hd{ height:28px; line-height:28px; padding-bottom: 10px; border-bottom:2px solid #f00; font-size:24px; }
+.slideTxtBox .hd ul{ overflow:hidden; zoom:1; margin: 0 auto; width: 340px;}
+.slideTxtBox .hd ul li{ float:left; margin:0 20px;}
+.slideTxtBox .hd ul li a{ display:block; padding:0 15px;  }
+.slideTxtBox .hd ul li a:hover{ text-decoration:none;  }
+.slideTxtBox .hd ul li.on a{ background:#39A4DC; color:#fff; font-weight:bold;  }
+.slideTxtBox .bd{ padding:10px;  }
+
+.ladyScroll{width:1200px;height:600px;margin:15px auto;position:relative;}
+.ladyScroll .prev,.ladyScroll .next{width:51px;height:45px;position:absolute;top:210px;left:0;z-index:100; cursor:pointer; background:url(images/btns.png) no-repeat;}
+.ladyScroll .next{ left:auto; right:0; background-position:0 -90px;}
+.ladyScroll .prev:hover{ background-position:0 -45px; }
+.ladyScroll .next:hover{ background-position:0 -135px; }
+
+.ladyScroll .scrollWrap{width:616px;margin-left:31px;padding-top:15px;overflow:hidden;position:absolute;}
+.ladyScroll dl{float:left;width:308px;text-align:center;position:relative;}
+.ladyScroll  span{display:block;width:298px;height:53px;position:absolute;left:5px;bottom:0;background:#5f626b;filter:alpha(opacity=80);opacity:0.80;}
+.ladyScroll  dt{margin:0 auto;width:298px;overflow:hidden;}
+.ladyScroll  img{display:block;width:298px;height:450px;}
+.ladyScroll  dd{width:298px;height:40px;line-height:28px;font-size:20px;color:#fff;text-align:center;overflow:hidden;position:absolute;left:5px;bottom:0;}
+.ladyScroll  dd a{ color:#fff;  }
+.ladyScroll  dd a:hover{ text-decoration:none;  }
+.ladyScroll dl:hover span{ background:#B52153;  }
