@@ -1,10 +1,14 @@
 ._banner {
     position: relative;
 }
+.swiper-container {
+	width: 100%;
+	overflow: hidden;
+}
 ._banner .swiper-slide a {
 	display: block;
 	height: 855px;
-	width: 1920px;
+	width: 100%;
 	overflow: hidden;
 	text-decoration: none;
 	color: #fff;
