@@ -1,0 +1,100 @@
+._retail_four {
+    width: 100%;
+    height: 1070px;
+    text-align: center;
+    padding-top: 100px;
+    overflow: hidden;
+    background: url(../../imgs/consult/bg.png) no-repeat;
+    background-size: 100%;
+}
+._retail_four-title {
+    font-size:40px;
+    font-weight:400;
+    color:rgba(17,17,17,1);
+    margin-bottom: 60px;
+}
+._retail_four-container {
+    width: 100%;
+}
+._retail_four-items {
+    margin-left: 418px;
+    margin-right: 418px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+._retail_four-items ._item {
+    width: 328px;
+    height: 410px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+._retail_four-items ._item:nth-of-type(3), ._retail_four-items ._item:nth-of-type(6) {
+    margin-right: 0;
+}
+._retail_four-items ._item ._img {
+    width: 100%;
+    height: 56px;
+    background: #282B2E;
+}
+._retail_four-items ._item ._content {
+    position: relative;
+    height: 314px;
+    padding: 50px;
+    padding-top: 40px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+._retail_four-items ._item ._content img {
+    width: 52px;
+    height: 52px;
+}
+._retail_four-items ._item ._content ._line {
+    width: 30px;
+    height: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FD625C;
+}
+._retail_four-items ._item ._content ._title {
+    font-size:24px;
+    font-weight:400;
+    margin-bottom: 20px;
+    color:rgba(17,17,17,1);
+}
+._retail_four-items ._item ._content ._desc {
+    font-size:14px;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    width: 228px;
+    line-height:28px;
+    text-align: left;
+}
+._retail_four-items ._item ._content ._btn {
+    position: absolute;
+    left:50%;
+    margin-left: -90px;
+    bottom: 40px;
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #999;
+    border:1px solid rgba(153,153,153,1);
+}
+._retail_four-items ._item:hover {
+    box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+._retail_four-items ._item:hover ._img {
+    background: url(../../imgs/consult/bg-header.png);
+}
+._retail_four-items ._item ._content ._btn:hover {
+    color: #FD625C;
+    cursor: pointer;
+    border-color:#FD625C;
+}
