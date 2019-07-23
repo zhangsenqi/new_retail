@@ -1,0 +1,70 @@
+.consult {
+  height: 1100px;
+  background: url(../../imgs/retail/consult/bg.png) no-repeat 0 0;
+}
+.consult h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #111;
+  padding-top: 100px;
+}
+.consult ul {
+  padding-top: 60px;
+  width: 1084px;
+  margin: 0 auto;
+}
+.consult li {
+  float: left;
+  width: 328px;
+  height: 410px;
+  background: #fff;
+  position: relative;
+}
+.consult li:hover {
+  background: url(../../imgs/retail/consult/bg-header.png) no-repeat 0 0;
+  background-color: #fff;
+}
+.ml {
+  margin-left: 50px;
+}
+.mt {
+  margin-top: 50px;
+}
+.consult img {
+  margin: 95px 0 0 138px;
+}
+.consult ._line {
+  width: 30px;
+  height: 4px;
+  background-color: #fd625c;
+  margin: 10px 0 0 150px;
+}
+.consult ._title {
+  color: #111111;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 20px;
+}
+.consult ._desc {
+  color: #666666;
+  padding: 0 50px;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  padding-top: 20px;
+}
+.consult ._btn {
+  width: 180px;
+  height: 30px;
+  border: 1px solid #999;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  bottom: 40px;
+  left: 74px;
+}
+.consult ._btn:hover {
+  cursor: pointer;
+  color: #fd625c;
+  border: 1px solid #fd625c;
+}

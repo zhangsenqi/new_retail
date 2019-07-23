@@ -1,0 +1,62 @@
+.services {
+    height: 700px;
+    background: url(../../imgs/retail/services/bg.png) no-repeat 0 0;
+  }
+  .services h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 100px;
+  }
+  .services ul {
+    padding-top: 60px;
+    /* width: 1084px; */
+    /* margin: 0 auto; */
+  }
+  .services li {
+    float: left;
+    border:1px solid #fff;
+    width: 170px;
+    height: 450px;
+    padding: 0 20px;
+    position: relative;
+  }
+  .services li img{
+    margin: 40px 60px 20px 60px;
+  }
+  .services li h3{
+    color: #E6E6E6;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+   }
+  .services li:hover {
+    background:linear-gradient(0deg,rgba(120,94,251,0.7) 0%,rgba(252,98,93,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = #785EFB, endColorstr = #FC625D);   
+}
+
+._desc {
+    color: #E6E6E6;
+    text-align: left;
+    font-size: 14px;
+    line-height: 28px;
+}
+.ml {
+margin-left: 30px;
+}
+.services ._btn {
+    width:124px;
+    height:30px;
+    color:#fff;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+  }
+  .services ._btn:hover {
+    cursor: pointer;
+    color: #fd625c;
+    border: 1px solid #fd625c;
+  }
