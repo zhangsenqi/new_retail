@@ -229,7 +229,7 @@
                 <!-- 如果需要分页器 -->
                 <div class="swiper-pagination"></div>
             </div>
-            <ul class="swiper-dot1">
+            <!-- <ul class="swiper-dot1">
                 <div class="dot"></div>
                 <div class="dot"></div>
                 <div class="dot"></div>
@@ -252,7 +252,7 @@
                 <div class="dot"></div>
                 <div class="dot"></div>
                 <div class="dot"></div>
-            </ul>
+            </ul> -->
         </div>
 
         <div class="_retail_second">
@@ -881,7 +881,9 @@
                 bulletClass: 'my-bullet',
                 bulletActiveClass: 'my-bullet-active',
                 renderBullet: function (index, className) {
-                    return '<span class="' + className + '">' + '<span class="big-dot"></span>' + '</span>';
+                    return '<span style="margin-right:155px;"> <span style="margin-right:0px;" class="' + className + ' AAAA">' + '<span class="big-dot"></span>' + '</span><span class="dot" style="width: 4px;height: 4px;display: inline-block;background: white;margin-left: 20px;"></span><span class="dot" style="width: 4px;height: 4px;display: inline-block;background: white;margin-left: 20px;"></span><span class="dot" style="width: 4px;height: 4px;display: inline-block;background: white;margin-left: 20px;"></span> </span>'
+                    // return '<span>111111</span>'
+                    // return '<span class="' + className + '">' + '<span class="big-dot"></span>' + '</span>';
                     // `${index !== 2 ? '<span class="dot">.....</span>' : '<span></span>'}`
                 }
             },

@@ -11,6 +11,9 @@
 }
 .focusBox .hd {
   width: 100%;
+  /* width: 350px; */
+  /* left:50%; */
+  /* margin-left:-175px; */
   position: absolute;
   bottom: 10px;
   text-align: center;
@@ -18,7 +21,7 @@
   z-index: 1;
 }
 .focusBox .hd li {
-  margin: 0 50px;
+  padding: 0 40px;
   background: url(../../imgs/retail/banner/dot.png) no-repeat 0 -16px;
   height: 16px;
   overflow: hidden;
@@ -29,6 +32,7 @@
   zoom: 1;
   _background: url(../../imgs/retail/banner/dot8.png) no-repeat 0 -16px;
 }
+
 .focusBox .hd .on {
   background-position: 0 0;
 }
@@ -76,27 +80,6 @@
   top: 550px;
 }
 
-.focusBox .dots {
-  position: absolute;
-  bottom: 22px;
-  border: 1px solid red;
-  z-index: 100000;
-  width: 600px;
-  height: 10px;
-  margin:0 auto;
-}
-.focusBox .dots li {
-  width: 10px;
-  height: 10px;
-  background-color: #fff;
-  float: left;
-  margin-left: 10px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
-.dot1 {
-
+.focusBox .hd li:after {
+  content:url(../../imgs/QRcode.png);
 }
