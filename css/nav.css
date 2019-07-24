@@ -1,3 +1,8 @@
+.c-nav {
+  background-color: #090A14;
+  height: 70px;
+  box-shadow:0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+}
 .nav-logo {
     width: 1200px;
     padding:40 60px;
@@ -5,6 +10,7 @@
     z-index: 1000;
     top:20px;
     left: 0px;
+   
 }
 .nav-logo .logo {
     float:left;

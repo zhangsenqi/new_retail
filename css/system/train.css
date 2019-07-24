@@ -1,0 +1,29 @@
+._train {
+  height: 826px;
+  overflow: hidden;
+  background: linear-gradient(
+    -32deg,
+    rgba(64, 74, 81, 1) 0%,
+    rgba(80, 89, 96, 1) 100%
+  );
+  text-align: center;
+  background: url(../../imgs/system/train/bg.png) no-repeat 0 0;
+}
+
+._train ._title {
+  padding-top: 80px;
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+}
+
+._train ._desc {
+  font-size: 24px;
+  padding-top: 44px;
+  color: #fff;
+}
+
+._train img {
+  padding-top: 44px;
+  margin: 0 auto;
+}

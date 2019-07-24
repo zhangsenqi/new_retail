@@ -181,6 +181,7 @@
     cursor: default;
     animation: change 0.5s ease-out;
     animation-fill-mode: forwards;
+    -webkit-animation: change 0.5s ease-out;
 }
 ._retail_third .swiper-slide:hover ._line {
     display: none;
@@ -194,6 +195,7 @@
 }
 ._retail_third .swiper-slide:hover ._mask {
     display: block;
+    z-index: -1;
 }
 @keyframes change {
     0% {

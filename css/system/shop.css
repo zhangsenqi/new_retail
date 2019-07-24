@@ -1,0 +1,23 @@
+._shop {
+	height: 802px;
+	background: #fff;
+	text-align: center;
+}
+
+._shop ._title {
+	padding-top: 100px;
+	font-size: 40px;
+	font-weight: 400;
+	color: #111;
+}
+
+._shop ._desc {
+	font-size: 18px;
+	padding-top: 40px;
+	color: #666;
+}
+
+._shop ._img {
+	margin: 50px auto;
+	width: 900px;
+}

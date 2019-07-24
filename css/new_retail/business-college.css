@@ -51,7 +51,7 @@
   zoom: 1;
   padding: 60px 50px 0px 75px;
   position: relative;
-  width: 1350px;
+  width: 1300px;
   margin:0 auto;
 }
 
@@ -64,12 +64,12 @@
   width: 50px;
   height: 50px;
   z-index: 1000;
-  background: url(../../imgs/retail/train/prev.png) center center no-repeat #f4f4f4;
+  background: url(../../imgs/retail/train/prev.png) center center no-repeat;
 }
 .slideGroup .sNext {
   left: auto;
   right: 0px;
-  background: url(../../imgs/retail/train/next.png) center center no-repeat #f4f4f4;
+  background: url(../../imgs/retail/train/next.png) center center no-repeat;
 }
 .slideGroup .sPrev:hover,
 .slideGroup .sNext:hover {
@@ -81,27 +81,201 @@
   zoom: 1;
   width: 1200px;
   margin-left:40px;
+  background: transparent;
 }
-.slideGroup .parBd ul li {
+ .slideGroup .parBd ul li {
   float: left;
   _display: inline;
   overflow: hidden;
   text-align: center;
 }
-.slideGroup .parBd ul li .pic {
-  text-align: center;
-}
-.slideGroup .parBd ul li .pic img {
-  width: 240px;
+
+.slideGroup .parBd ul li .inner {
+  position: relative;
   height: 460px;
+  display: flex;
+  width: 230px;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  box-sizing: border-box;
+}
+.slideGroup .parBd ul li .inner ._icon {
+  width: 27px;
+  height: 27px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  z-index: 10;
+}
+.slideGroup .parBd ul li .inner ._icon img {
+  /* width: 100%; */
+  height: 100%;
+  z-index: 10;
+}
+/* 鼠标悬浮蒙层 */
+.slideGroup .parBd ul li .inner ._mask {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(0deg,rgba(120,94,251,0.7) 0%,rgba(252,98,93,1) 100%);
+}
+.slideGroup .parBd ul li .inner ._line {
+  width: 30px;
+  height: 2px;
+  margin-bottom: 30px;
+  background: #fff;
+  z-index: 10;
+}
+.slideGroup .parBd ul li .inner h3 {
+  font-size: 24px;
+  font-weight: 400;
+  width: 180px;
+  line-height: 40px;
+  color: #fff;
+  margin-bottom: 30px;
+  z-index: 10;
+}
+.slideGroup .parBd ul li .inner ._desc {
+  display: none;
+  font-size: 14px;
+  font-weight: 400;
+  width: 180px;
+  line-height: 30px;
+  color: #fff;
+  z-index: 10;
+}
+.slideGroup .parBd ul li .inner ._btn {
+  display: none;
+  width: 124px;
+  height: 30px;
+  margin-top: 60px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  z-index: 10;
+  border: 1px solid #fff;
+}
+
+/* 线上 */
+.slideGroup .parBd ul li.slide1 {
+  background-image: url(../../imgs/retail/train/online/dajiangtang.png);
+  background-size: cover;
+}
+.slideGroup .parBd ul li.slide2 {
+  background-image: url(../../imgs/retail/train/online/xinbing.png);
+  background-size: cover;
+}
+.slideGroup .parBd ul li.slide3 {
+  background-image: url(../../imgs/retail/train/online/zhanlang.png);
+  background-size: cover;
+}
+.slideGroup .parBd ul li.slide4 {
+  background-image: url(../../imgs/retail/train/online/daoceng.png);
+  background-size: cover;
+}
+.slideGroup .parBd ul li.slide5 {
+  background-image: url(../../imgs/retail/train/online/sandian.png);
+  background-size: cover;
+}
+.slideGroup .parBd ul li.slide6 {
+  background-image: url(../../imgs/retail/train/online/wanghong-1.png);
+  background-size: cover;
+}
+.slideGroup .parBd ul li.slide7 {
+  background-image: url(../../imgs/retail/train/online/fengkuang.png);
+  background-size: cover;
+}
+/* 线下 */
+.slideGroup .parBd ul li.slide20 {
+  background-image: url(../../imgs/retail/train/underline/tuokey.png);
+  background-size: cover;
+}
+.slideGroup .parBd ul li.slide21 {
+  background-image: url(../../imgs/retail/train/underline/zhaoshang.png);
+  background-size: cover;
+}
+.slideGroup .parBd ul li.slide22{
+  background-image: url(../../imgs/retail/train/underline/wenpanzengzhang.png);
+  background-size: cover;
+}
+.slideGroup .parBd ul li.slide23 {
+  background-image: url(../../imgs/retail/train/underline/liul.png);
+  background-size: cover;
+}
+.slideGroup .parBd ul li.slide24 {
+  background-image: url(../../imgs/retail/train/underline/zongcai.png);
+  background-size: cover;
+}
+.slideGroup .parBd ul li.slide25 {
+  background-image: url(../../imgs/retail/train/underline/xianxianeixun.png);
+  background-size: cover;
+}
+/* 鼠标经过样式 */
+.slideGroup .parBd ul li:hover {
+  cursor: default;
+  animation: change 0.5s ease-out;
+  animation-fill-mode: forwards;
+}
+.slideGroup .parBd ul li:hover ._line {
+  display: none;
+}
+.slideGroup .parBd ul li:hover ._desc {
   display: block;
 }
-.slideGroup .parBd ul li .pic a:hover img {
-  border-color: #999;
+.slideGroup .parBd ul li:hover ._btn {
+  display: block;
+  cursor: pointer;
 }
-.slideGroup .parBd ul li .title {
-  line-height: 24px;
+.slideGroup .parBd ul li:hover ._mask {
+  display: block;
 }
+@keyframes change {
+  0% {
+      transform: scale(1);
+  }
+  100% {
+      transform: scale(1.05);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .more {
   color: #FFFEFE;
   font-size: 14px;

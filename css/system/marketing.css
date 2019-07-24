@@ -1,0 +1,158 @@
+
+._marketing  {
+    height: 1000px;
+    color: #fff;
+    text-align: center;
+    background-color: #F5F5F6;
+  }
+  ._marketing  h2 {
+    padding-top: 100px;
+    font-size: 40px;
+    color: #000;
+  }
+  ._marketing  .parHd {
+    height: 30px;
+    color:#333;
+    line-height: 30px;
+    margin-top:80px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  ._marketing .xs{
+    width: 400px;
+    margin: 0 auto;
+    font-size: 30px;
+  }
+  ._marketing  .parHd ul {
+    float: left;
+    height: 32px;
+    width: 400px;
+   
+  }
+  ._marketing  .parHd ul li {
+    float: left;
+    margin: 0 40px;
+    cursor: pointer;
+  }
+  ._marketing  .parHd ul li.on {
+    height: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #FD625C;
+  }
+  ._marketing ._marketing-title {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    color: #000;
+}
+
+._marketing .slideBox {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+
+._marketing ._title {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333;
+}
+
+._marketing ._desc {
+    font-size: 18px;
+    padding-top: 18px;
+    font-weight: 400;
+    color: #666;
+}
+
+#change,
+#change2 {
+    width: 220px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333;
+    cursor: pointer;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+._marketing ._content {
+    display: flex;
+    
+    justify-content:center;
+    margin: 50px auto;
+   
+}
+._marketing ._content ._marketing-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 220px;
+    height: 80px;
+    font-size: 18px;
+    color:#333;
+    background: url(../../imgs/system/marketing/bg.png) no-repeat 0 0;
+}
+._marketing .mt-tabpage-title a {
+    margin:0 70px;
+    
+}
+._marketing ._content ._marketing-item:hover {
+    border-left: 8px solid #FD625C;
+    width: 210px;
+}
+
+._marketing ._content ._marketing-item img {
+    margin: 0 20px;
+    width: 28px;
+    height: 26px;
+}
+
+._marketing ._content ul li {
+    width: 220px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 20px;
+    color: #333;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+._marketing ._show {
+    width: 700px;
+    height: 580px;
+    margin-left: 20px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+._marketing ._show ._show-title {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+._marketing ._show ._show-desc {
+    font-size: 16px;
+    color: #666;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+._marketing ._show img{
+    position: absolute;
+    left:50%;
+    bottom:0;
+    width: 600px;
+    max-height: 460px;
+    margin-left:-300px;
+}

@@ -26,17 +26,20 @@
     margin-top:20px;
     box-sizing: border-box;
     text-align: center;
-    /* box-sizing: border-box; */
     float: left;
-    border-radius: 15px; 
+    border-radius: 10px;
     width: 240px;
     padding:10px;
-    height: 300px;
+    height: 320px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 ._retail_second-contailer ._icon:hover{
     text-align: center;
     box-sizing: border-box;
-    box-shadow:0px 0px 16px 0px rgba(0, 0, 0, 0.1);
+    box-shadow:0px 0px 16px 0px rgba(0, 0, 0, 0.2);
 }
  ._icon ._line {
     visibility: hidden;
@@ -57,7 +60,9 @@
     height: 84px;
     text-align: left;
     line-height: 28px;
-    color:#333;;
+    color:#333;
+    width: 180px;
+    margin:0 auto;
 }
 ._icon img {
     filter: grayscale(100%); 
