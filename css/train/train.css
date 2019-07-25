@@ -1,0 +1,210 @@
+._train ._hot {
+  height: 800px;
+  text-align: center;
+  border-bottom: 1px solid #cbcbcb;
+}
+._train ._hot h3 {
+  font-size: 40px;
+  color: #111;
+  padding-top: 100px;
+}
+._train ._hot h4 {
+  font-size: 18px;
+  color: #666;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+._train ._hot ._left,
+._train ._hot ._right {
+  box-sizing: border-box;
+  width: 590px;
+  height: 500px;
+  background: url(../../imgs/train/tky-bg.png) no-repeat;
+  box-shadow: 2px 2px 10px #ccc;
+}
+._train ._hot ._right {
+  margin-left: 20px;
+  padding-left: 20px;
+}
+._train ._hot ._left img,
+._train ._hot ._right img {
+  padding-top: 90px;
+}
+._train ._hot ._left h4,
+._train ._hot ._right h4 {
+  padding-top: 24px;
+  font-size: 30px;
+  color: #fff;
+}
+._train ._hot ._left ul {
+  margin-top: 60px;
+  font-size: 14px;
+  color: #333;
+}
+._train ._hot ._left ul li {
+  margin-top: 30px;
+}
+._train ._hot ._right {
+  width: 590px;
+  height: 500px;
+  background: url(../../imgs/train/lsm-bg.png) no-repeat;
+}
+._train ._hot ._right ul {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+._train ._hot ._right ul li {
+  float: left;
+  width: 32%;
+  height: 100px;
+  cursor: pointer;
+}
+._train ._hot ._right ul li:hover {
+  box-shadow: 2px 2px 10px #ccc;
+}
+._train ._hot ._right ul li img {
+  padding-top: 20px;
+}
+._train ._hot ._right ul li div {
+  padding-top: 10px;
+}
+
+._train ._boss {
+  height: 1600px;
+}
+._train ._boss h3 {
+  text-align: center;
+  padding-top: 100px;
+  color: #111;
+  font-size: 40px;
+}
+._train ._boss h4 {
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 40px;
+  color: #666;
+  width: 1100px;
+  font-size: 20px;
+  line-height: 40px;
+}
+._train ._boss ._box {
+  border: 1px solid red;
+}
+._train ._boss ._one {
+  height: 590px;
+  width: 500px;
+  background: url(../../imgs/train/stars/lcmp-bg.png) no-repeat;
+}
+._train ._boss ._two {
+  height: 590px;
+  width: 500px;
+  background: url(../../imgs/train/stars/zhxmp-bg.png) no-repeat;
+}
+._train ._boss ._three {
+  height: 590px;
+  width: 500px;
+  background: url(../../imgs/train/stars/zzlzp-bg.png) no-repeat;
+}
+._train ._boss ._four {
+  height: 590px;
+  width: 500px;
+  background: url(../../imgs/train/stars/fxpmp-bg.png) no-repeat;
+}
+._train ._left {
+  color: #ffff;
+  padding: 30px 4px 0 0;
+
+  font-family: Microsoft YaHei;
+}
+._train ._left h5 {
+  font-size: 24px;
+}
+._train ._left span {
+  color: #fefefe;
+  display: inline-block;
+  padding-top: 30px;
+  font-size: 30px;
+  line-height: 50px;
+  border-bottom: 4px solid #fd625c;
+}
+._train ._left ul {
+  padding-top: 17px;
+  color: #f2f2f2;
+  font-size: 16px;
+  line-height: 32px;
+}
+._train ._lecturer {
+  height: 436px;
+  background-color: #f5f5f6;
+}
+.scrollBox {
+  width: 1200px;
+  padding: 10px;
+  border-top: 1px solid #fff;
+  position: relative;
+}
+.scrollBox .piclist {
+  overflow: hidden;
+  zoom: 1;
+}
+.scrollBox .ohbox {
+  overflow: hidden;
+  position: relative;
+  width: 900px;
+  left: 100px;
+}
+.scrollBox {
+  position: relative;
+  overflow: hidden;
+  zoom: 1;
+}
+.scrollBox .piclist li {
+  float: left;
+  display: inline-block;
+  width: 185px;
+  height: 200px;
+  background: #fff;
+  border: 1px solid #c9bea9;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.scrollBox .pageBtn span {
+  display: block;
+  width: 96px;
+  height: 96px;
+  cursor: pointer;
+  position: absolute;
+  top:50%;
+  margin-top:-48px;
+}
+.scrollBox .pageBtn .prev {
+  left: 0px;
+  background: url(../../imgs/train/stars/left.png);
+}
+.scrollBox .pageBtn .next {
+  right: 0px;
+  background: url(../../imgs/train/stars/right.png);
+}
+.scrollBox .pageBtn .list {
+  overflow: hidden;
+  zoom: 1;
+  margin: 10px 0 0 413px;
+}
+/* .scrollBox .pageBtn .list li {
+  background: url(images/bntBg.png);
+  float: left;
+  display: inline;
+  width: 15px;
+  height: 15px;
+  background-position: -86px -57px;
+  cursor: pointer;
+  margin-left: 10px;
+  line-height: 10000px;
+  overflow: hidden;
+} */
+.scrollBox .pageBtn .list li.on {
+  background-position: -114px -57px;
+}
