@@ -397,7 +397,15 @@
     height: 205px;
   }
 }
-
+._train ._team {
+  background-color: #04080B;
+}
+._train ._group {
+  background-color: #0F0101;
+}
+._train ._team img,._train ._group img {
+  width: 1200px;
+}
 ._mission {
   color: #1E1E1E;
   text-align: center;
