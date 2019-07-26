@@ -70,9 +70,118 @@
 ._train ._hot ._right ul li div {
   padding-top: 10px;
 }
+._train ._offline {
+  height: 980px;
+  background: url(../../imgs/train/offline/bgtp-jpg.png) no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+._train ._offline h3 {
+  padding-top: 100px;
+  font-size: 40px;
+}
+._train ._offline h4 {
+  padding-top: 30px;
+  font-size: 18px;
+  padding-bottom: 60px;
+}
+._train .m-slide {
+  position: relative;
+  width: 1200px;
+  height: 620px;
+}
+/* ._train .m-slide .bottom-shadow {
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  overflow: hidden;
+  border-top: 1px solid #e0e0e0;
+  background: #e6e6e6;
+} */
+._train .m-slide .img {
+  box-sizing: border-box;
+  text-align: left;
+  float: left;
+  position: relative;
+  width:856px;
+  height: 620px !important;
+  background-color: #1E2124;
+}
+._train .m-slide .img li {
+  padding:60px;
+}
+._train .m-slide .img img {
+  display: inline-block;
+  margin-right: 20px;
+  /* width: 100%; */
+
+ 
+}
+._train .m-slide .img li {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+._train .m-slide .img li>div{
+  align-content: flex-start
+}
+._train .m-slide .img li h4{
+  font-size:30px;
+}
+._train .m-slide .img li h5{
+  font-size:14px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+._train .m-slide .img li i{
+  /* display: inline-block; */
+  width: 14px !important;
+  min-width: 14px ;
+  height: 14px !important;
+  margin-top: 6px;
+  background-color: #FD625C;
+  border-radius: 50%;
+  margin-right: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+._train .m-slide .tab {
+  float: left;
+  background: url(../../imgs/train/offline/bg-hei.png) no-repeat;
+  margin-right: 30px;
+  box-sizing:border-box;
+}
+._train .m-slide .tab li {
+  font-size: 20px;
+  width: 314px;
+  height: 124px;
+  line-height: 124px;
+}
+
+._train .m-slide .tab .on  {
+  background-color: #FD625C;
+}
+._train .m-slide .tab .on  b {
+  background: url(images/dot.png) no-repeat;
+
+}
+._train .m-slide .tab .on  span {
+  color: #fff;
+  font-size:20px;
+}
+
+
+
 
 ._train ._boss {
-  height: 1600px;
+  height: 1400px;
 }
 ._train ._boss h3 {
   text-align: center;
@@ -90,121 +199,222 @@
   line-height: 40px;
 }
 ._train ._boss ._box {
-  border: 1px solid red;
+  width: 1200px;
+  margin: 30px auto;
 }
 ._train ._boss ._one {
-  height: 590px;
-  width: 500px;
+  height: 500px;
+  width: 590px;
   background: url(../../imgs/train/stars/lcmp-bg.png) no-repeat;
 }
 ._train ._boss ._two {
-  height: 590px;
-  width: 500px;
+  height: 500px;
+  width: 590px;
   background: url(../../imgs/train/stars/zhxmp-bg.png) no-repeat;
+  margin-left: 20px;
 }
 ._train ._boss ._three {
-  height: 590px;
-  width: 500px;
+  height: 500px;
+  width: 590px;
   background: url(../../imgs/train/stars/zzlzp-bg.png) no-repeat;
+  margin-top: 20px;
 }
 ._train ._boss ._four {
-  height: 590px;
-  width: 500px;
+  height: 500px;
+  width: 590px;
   background: url(../../imgs/train/stars/fxpmp-bg.png) no-repeat;
+  margin-left: 20px;
+  margin-top: 20px;
 }
-._train ._left {
+._train ._boss ._left {
   color: #ffff;
-  padding: 30px 4px 0 0;
-
-  font-family: Microsoft YaHei;
+  padding: 30px 16px 0 0;
 }
-._train ._left h5 {
+._train ._boss ._left h5 {
   font-size: 24px;
 }
-._train ._left span {
+._train ._boss ._left span {
   color: #fefefe;
   display: inline-block;
-  padding-top: 30px;
+  padding-top: 20px;
   font-size: 30px;
   line-height: 50px;
   border-bottom: 4px solid #fd625c;
 }
-._train ._left ul {
-  padding-top: 17px;
+._train ._boss ._left ul {
+  padding-top: 20px;
   color: #f2f2f2;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 38px;
 }
-._train ._lecturer {
-  height: 436px;
-  background-color: #f5f5f6;
-}
-.scrollBox {
-  width: 1200px;
-  padding: 10px;
-  border-top: 1px solid #fff;
-  position: relative;
-}
-.scrollBox .piclist {
-  overflow: hidden;
-  zoom: 1;
-}
-.scrollBox .ohbox {
-  overflow: hidden;
-  position: relative;
-  width: 900px;
-  left: 100px;
-}
-.scrollBox {
-  position: relative;
-  overflow: hidden;
-  zoom: 1;
-}
-.scrollBox .piclist li {
-  float: left;
-  display: inline-block;
-  width: 185px;
-  height: 200px;
-  background: #fff;
-  border: 1px solid #c9bea9;
-  margin-right: 10px;
-  padding: 5px;
+._train ._boss ._left ul._small {
+  padding-top: 12px;
+  color: #f2f2f2;
+  font-size: 16px;
+  line-height: 30px;
 }
 
-.scrollBox .pageBtn span {
-  display: block;
-  width: 96px;
-  height: 96px;
-  cursor: pointer;
-  position: absolute;
-  top:50%;
-  margin-top:-48px;
+
+
+._train ._lecturer {
+  height: 600px;
+  background-color: #fff;
+  position: relative;
 }
-.scrollBox .pageBtn .prev {
-  left: 0px;
-  background: url(../../imgs/train/stars/left.png);
+._lecturer .scrollBox {
+  width: 1350px;
+  border-top: 1px solid #fff;
+  position: relative;
+  margin: 0 auto;
 }
-.scrollBox .pageBtn .next {
-  right: 0px;
-  background: url(../../imgs/train/stars/right.png);
-}
-.scrollBox .pageBtn .list {
+._lecturer .scrollBox .piclist {
+  height: 550px;
   overflow: hidden;
   zoom: 1;
-  margin: 10px 0 0 413px;
 }
-/* .scrollBox .pageBtn .list li {
-  background: url(images/bntBg.png);
-  float: left;
-  display: inline;
-  width: 15px;
-  height: 15px;
-  background-position: -86px -57px;
-  cursor: pointer;
-  margin-left: 10px;
-  line-height: 10000px;
+._lecturer .scrollbg {
+  height: 440px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #f5f5f6;
+}
+._lecturer .scrollBox {
+  position: relative;
+  height: 550px;
   overflow: hidden;
-} */
-.scrollBox .pageBtn .list li.on {
+  zoom: 1;
+}
+._lecturer .scrollBox .ohbox {
+  overflow: hidden;
+  height: 550px;
+  position: relative;
+  width: 1200px;
+  left: 50%;
+  margin-left: -600px;
+}
+
+._lecturer .scrollBox .piclist li {
+  float: left;
+  display: inline-block;
+  width: 280px;
+  height: 550px;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 20px;
+  position: relative;
+  overflow: hidden;
+}
+._lecturer .scrollBox .piclist li ._pic {
+  position: absolute;
+  height: 438px;
+  width: 100%;
+  overflow: hidden;
+}
+._lecturer .scrollBox .piclist li img {
+  padding-top: 118px;
+}
+._lecturer .scrollBox .piclist li ._desc {
+  display: none;
+}
+._lecturer .scrollBox .piclist li:hover ._desc {
+  width: 280px;
+  height: 205px;
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -140px;
+  line-height: 205px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+  animation: change 0.3s ease-out;
+  -webkit-animation: change 0.3s ease-out;
+}
+._lecturer .scrollBox .piclist ._desc li {
+  color: #000;
+  text-align: center;
+  padding-bottom: 10px;
+  height: 20px;
+  line-height: 20px;
+}
+._lecturer .scrollBox .piclist ._desc li:first-child {
+  padding-top: 20px;
+}
+._lecturer .scrollBox .piclist li ._name {
+  position: absolute;
+  bottom: 24px;
+  text-align: center;
+  line-height: 20px;
+  width: 300px;
+  left: 50%;
+  margin-left: -150px;
+}
+
+._lecturer .scrollBox .piclist li ._name h4 {
+  font-size: 20px;
+  color: #333;
+}
+._lecturer .scrollBox .piclist li ._name h5 {
+  padding-top: 20px;
+  font-size: 18px;
+  color: #666;
+}
+
+._lecturer .scrollBox .pageBtn span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+}
+._lecturer .scrollBox .pageBtn .prev {
+  left: 0px;
+  background: url(../../imgs/train/stars/left.png);
+  background-size: 100%;
+}
+._lecturer .scrollBox .pageBtn .next {
+  right: 0px;
+  background: url(../../imgs/train/stars/right.png);
+  background-size: 100%;
+}
+
+._lecturer .scrollBox .pageBtn .list li.on {
   background-position: -114px -57px;
+}
+
+@keyframes change {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 205px;
+  }
+}
+
+._mission {
+  color: #1E1E1E;
+  text-align: center;
+  height: 168px;
+  background: url(../../imgs/train/offline/wya-bg.png) no-repeat;
+  background-size: cover;
+  transform: scale(1.1,1.1);
+  -webkit-transform: scale(1.1,1.1);
+  -moz-transform: scale(1.1,1.1);
+  -ms-transform: scale(1.1,1.1);
+  -o-transform: scale(1.1,1.1);
+}
+._mission h3 {
+  font-size: 36px;
+  padding-top: 40px;
+}
+._mission h4 {
+  font-size: 24px;
+  padding-top: 22px;
 }
