@@ -24,11 +24,11 @@
 }
 .mg-indicator {
     position: absolute;
-    border-bottom: 10px solid #222;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
+    border-bottom: 20px solid #F5F5F6;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
     height: 0;
-    top: 0;
+    top: -21px !important;
     width: 0;
 }
 .mg-close {
@@ -49,11 +49,12 @@
 ._text{
     text-align: center;
 }
-._contents {
+.mg-targets ._contents {
     width: 530px;
     text-align: left;
+    border:1px solid red;
 }
-._contents ._title{
+.mg-targets ._contents ._title{
     padding-top: 80px;
     color: #333;
     font-size:20px;
@@ -61,7 +62,7 @@
     margin-left: 20px;
 }
 
-._contents div{
+.mg-targets ._contents div{
     width: 500px;
     text-align: left;
 }
@@ -70,14 +71,14 @@
     text-align: left;
 }
 
-._contents ul li {
+.mg-targets ._contents ul li {
     color: #777;
     font-size: 14px;
     min-height: 28px;
     line-height: 28px;
     padding-top:28px;
 }
-._contents ul li i  {
+.mg-targets ._contents ul li i  {
     margin-top:6px;
     float: left;
     width: 10px;
