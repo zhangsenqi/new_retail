@@ -1,15 +1,39 @@
-table.table-expandable > tbody > tr:nth-child(odd) {
+._recruit table tr th {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    background-color: #787878;
+    color: #fff;
+}
+
+._recruit table.table-expandable>tbody>tr:nth-child(odd) {
     cursor: pointer;
 }
 
-table.table-expandable.table-hover > tbody > tr:nth-child(even) {
+._recruit table.table-expandable>tbody>tr:nth-child(odd)>td {
+    height: 60px;
+    line-height: 60px;
+    color: #666;
+    font-size: 18px;
+}
+
+._recruit table .table-expandable-arrow {
+    margin-top: 20px;
+}
+
+._recruit table.table-expandable.table-hover>tbody>tr:nth-child(even) {
     background-color: #EDEDED;
+    text-align: left;
 }
 
-table.table-expandable > tbody > tr div.table-expandable-arrow {
-    background:transparent url(../../imgs/about/arrows.png) no-repeat scroll 0px -16px; width:16px; height:16px; display:block;
+._recruit table.table-expandable>tbody>tr div.table-expandable-arrow {
+    background: transparent url(../../imgs/about/arrows.png) no-repeat scroll 0px -16px;
+    width: 16px;
+    height: 16px;
+    display: block;
 }
 
-table.table-expandable > tbody > tr div.table-expandable-arrow.up {
-    background-position:0px 0px;
+._recruit table.table-expandable>tbody>tr div.table-expandable-arrow.up {
+    background-position: 0px 0px;
 }

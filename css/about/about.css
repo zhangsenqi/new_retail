@@ -5,10 +5,9 @@
   zoom: 1;
   position: relative;
   padding-top: 100px;
-  margin: 0 auto;
+  text-align: center;
 }
 ._about img {
-  text-align: center;
   margin-bottom: 20px;
 }
 ._about p {
@@ -70,11 +69,6 @@
   height: 168px;
   background: url(../../imgs/about/ziyuan.png) no-repeat;
   background-size: cover;
-  transform: scale(1.1,1.1);
-  -webkit-transform: scale(1.1,1.1);
-  -moz-transform: scale(1.1,1.1);
-  -ms-transform: scale(1.1,1.1);
-  -o-transform: scale(1.1,1.1);
 }
 ._about ._mission h3 {
   font-size: 36px;
@@ -278,11 +272,27 @@ margin-bottom: 20px;
   color: #666;
   padding-bottom: 40px;
 }
-
+/* 
 ._about ._applications .sideMenu{  border:1px solid #ddd;  }
 ._about ._applications .sideMenu h3{ height:32px; line-height:32px; padding-left:10px;  border-top:1px solid #e3e3e3; background:#f4f4f4; cursor:pointer;
 			font:normal 14px/32px "Microsoft YaHei";
 		}
     ._about ._applications .sideMenu h3 em{ float:right; display:block; width:40px; height:32px;   background:url(images/icoAdd.png) 16px 12px no-repeat; cursor:pointer; }
     ._about ._applications .sideMenu h3.on em{ background-position:16px -57px; }
-    ._about ._applications .sideMenu ul{ padding:8px 25px; color:#999; display:none; /* 默认都隐藏 */ }
+    ._about ._applications .sideMenu ul{ padding:8px 25px; color:#999; display:none;  } */
+    ._about ._recruit h4{
+      font-size:32px;
+     color: #111;
+     padding:80px 20px;;
+     text-align: left;
+    }
+    ._about ._recruit ._email{
+     color: #FF0000;
+     padding-left: 10px;
+     padding-right: 130px;
+    }
+    ._about ._recruit h3{
+      font-size:32px;
+     color: #111;
+     padding:40px 0px;
+    }
