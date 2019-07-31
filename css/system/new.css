@@ -1,6 +1,6 @@
 
 .slideGroup {
-    height: 950px;
+    height: 800px;
     color: #fff;
     text-align: center;
     background-color: #F5F5F6;
@@ -21,14 +21,17 @@
     margin-bottom: 20px;
   }
   .xs{
-    width: 400px;
+    /* width: 400px; */
+    width: 200px;
     margin: 0 auto;
     font-size: 30px;
+    
   }
   .slideGroup .parHd ul {
     float: left;
     height: 32px;
-    width: 400px;
+    width: 200px;
+    /* width: 400px; */
    
   }
   .slideGroup .parHd ul li {
@@ -85,7 +88,7 @@
     cursor: pointer;
     width: 980px;
     height: 411px;
-    background: url(../../imgs/system/award/bigbg.png) no-repeat 0px 0px;
+    /* background: url(../../imgs/system/award/bigbg.png) no-repeat 0px 0px; */
 }
 
 .slideGroup .slideBox ._right-content {
@@ -150,4 +153,9 @@
     line-height: 22px;
     background: #FD625C;
     border-radius: 4px;
+}
+.slideGroup ._tip {
+  color: #999;
+  font-size: 12px;
+  text-align: center;
 }
