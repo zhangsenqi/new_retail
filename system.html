@@ -138,7 +138,7 @@
     </div>
     <!-- 系统简介 -->
     <div class="_kernel">
-        <div class='w'>
+        <div class='w' aos="fade-up" >
             <div class="_kernel-content">
                 <h3 class="_kernel-content-title">聚焦四大核心模式</h3>
                 <h3 class="_kernel-content-desc">
@@ -208,7 +208,7 @@
         </div>
     </div>
     <!-- 全新简历 -->
-    <div class="slideGroup" style="margin:0 auto">
+    <div class="slideGroup" style="margin:0 auto" aos="fade-up">
         <h2>全新奖励打发</h2>
         <!-- <div class="parHd">
             <div class='xs'>
@@ -218,7 +218,7 @@
                 </ul>
             </div>
         </div> -->
-        <div class="parBd">
+        <div class="parBd" aos="fade-right">
             <div class="slideBox">
                 <div>
                     <div class='_title'>代理奖励</div>
@@ -312,7 +312,7 @@
         <div class='_tip'>注：基于真实的销售情况和劳务情况予以开通</div> 
     </div>
     <!-- 实现云协作部分 -->
-    <div class='_cloud-collaboration'>
+    <div class='_cloud-collaboration'  aos="fade-left">
         <div class='_title'>实现云协作</div>
         <div class='_content'>
             <div class='_content-item'>
@@ -432,7 +432,7 @@
 
     <!-- 营销宝 -->
     <div>
-        <div class="_marketing">
+        <div class="_marketing" aos="fade-down-right">
             <div class='_marketing-title'>创享营销宝</div>
             <div class="parHd">
                 <div class='xs'>
@@ -479,7 +479,7 @@
                         </div>
                     </div>
                 </div><!-- slideBox End -->
-                <div class="slideBox">
+                <div class="slideBox" aos="flip-right">
                     <div class='_title'>代理营销</div>
                     <div class='_desc'>五大代理营销活动，满足代理切实需求，更多福利火热派发，彻底调动代理积极性，注入团队全新活力。</div>
                     <div class='_content'>
@@ -524,7 +524,7 @@
     </div>
     <!-- 玩转零售小店部分 -->
     <div class='_shop'>
-        <div class='w'>
+        <div class='w' aos="flip-left">
             <div class='_title'>玩转零售小店</div>
             <div class='_desc'>便捷的线上购物平台，小店商品支持一键分享，分享佣金直观展示，一键自动生成分享海报，消费者扫码直达。</div>
             <div class='_img'>
@@ -537,7 +537,7 @@
 
     </div>
     <!-- 高效培训宝部分 -->
-    <div class='_train'>
+    <div class='_train' aos="flip-up">
         <div class="w">
             <div class='_title'>高效培训宝</div>
             <div class='_desc'>直播间轻松开课，随时随地为代理提供专业而有趣的培训；</div>
@@ -550,7 +550,7 @@
 
     <!-- 页脚 -->
     <div>
-        <div class='_footer'>
+        <div class='_footer' aos="flip-down">
             <div class='_footer-top'>
                 <div class='_footer-top-content'>
                     <ul>
@@ -751,5 +751,10 @@
         templateDataDiv2(data2.tags[1]);
     })
 </script>
-
+ <script>
+    AOS.init({
+        easing: 'ease-out-back',
+        duration: 1500
+    });
+</script>
 </html>
