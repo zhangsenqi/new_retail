@@ -299,7 +299,25 @@ margin-bottom: 20px;
   -ms-border-radius:4px;
   -o-border-radius:4px;
 }
-/* ._about ._style ul li + li {
-  margin-left: 20px;
-  margin-bottom: 20px;
-} */
+._about ._contact {
+  height: 1050px;
+}
+._about ._contact h3{
+  font-size:40px;
+  color: #111;
+  padding-top:100px;
+  padding-bottom: 80px;
+}
+._about ._contact ul li {
+  font-size:18px;
+  color: #666;
+  padding-bottom: 40px;
+}
+
+._about ._applications .sideMenu{  border:1px solid #ddd;  }
+._about ._applications .sideMenu h3{ height:32px; line-height:32px; padding-left:10px;  border-top:1px solid #e3e3e3; background:#f4f4f4; cursor:pointer;
+			font:normal 14px/32px "Microsoft YaHei";
+		}
+    ._about ._applications .sideMenu h3 em{ float:right; display:block; width:40px; height:32px;   background:url(images/icoAdd.png) 16px 12px no-repeat; cursor:pointer; }
+    ._about ._applications .sideMenu h3.on em{ background-position:16px -57px; }
+    ._about ._applications .sideMenu ul{ padding:8px 25px; color:#999; display:none; /* 默认都隐藏 */ }
