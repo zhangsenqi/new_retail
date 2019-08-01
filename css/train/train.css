@@ -406,7 +406,9 @@
   background-color: #04080B;
 }
 ._train ._group {
-  background-color: #0F0101;
+  background:linear-gradient(0deg,rgba(0,0,0,1),rgba(32,0,0,1),rgba(0,0,0,1));
+  height: 450px;
+  margin-top: 20px;
 }
 ._train ._team img,._train ._group img {
   width: 1200px;
