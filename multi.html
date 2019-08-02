@@ -12,7 +12,6 @@
     <link type="text/css" rel="stylesheet" href="./css/new_retail/banner.css">
     <link type="text/css" rel="stylesheet" href="./css/multi/multi.css">
     <link type="text/css" rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/aos.css" />
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/jquery.SuperSlide.2.1.3.js"></script>
 </head>
@@ -147,7 +146,7 @@
     </div>
     <!-- 线上起盘策划 -->
     <div class='_white'>
-        <div class="w" aos="zoom-in-down">
+        <div class="w">
             <h2>线上起盘策划</h2>
             <h3>为品牌方提供线上起盘策划帮扶指导，助力首轮招商爆发！</h3>
             <div class='_bgone'>
@@ -166,7 +165,7 @@
     </div>
     <!-- 广告投放 -->
     <div class='_black'>
-        <div class="w" aos="zoom-in-down">
+        <div class="w">
             <h2>广告投放</h2>
             <h3>省级、国家级平台电视广告投放，让品牌更有竞争力</h3>
             <div  class='_bgtwo'>
@@ -185,7 +184,7 @@
     </div>
     <!-- 视频制作 -->
     <div class='_white'>
-        <div class="w" aos="zoom-in-down">
+        <div class="w">
             <h2>视频制作</h2>
             <h3>高端视频设计、优质影视广告制作、朋友圈小视频，专业化一站式服务为您的品牌与形象创造差异性的识别解决方案</h3>
             <div class='_bgthree'>
@@ -204,7 +203,7 @@
     </div>
     <!-- 品牌视觉设计 -->
     <div class='_black'>
-        <div class="w" aos="zoom-in-down">
+        <div class="w">
             <h2>品牌视觉设计</h2>
             <h3>
                 在起盘阶段，为项目提供朋友圈招商宣传素材海报设计、朋友圈发圈文案指导，以及LOGO、代理必备物料包设计、品牌包装设计 、全案等服务，为首次招商助力。
@@ -227,7 +226,7 @@
     </div>
     <!-- 百度营销推广 -->
     <div class='_white'>
-        <div class="w" aos="zoom-in-down">
+        <div class="w">
             <h2>百度营销推广</h2>
             <h3>通过口碑、软文、自媒体布局、网媒背书等方式，帮助企业在百度端达到全网营销效果</h3>
             <div class='_bgfive'>
@@ -310,61 +309,4 @@
         </div>
     </div>
 </body>
-<script src="./js/highlight.min.js"></script>
-<script type="text/javascript" src="./js/aos.js"></script>
-<script>
-    $(document).ready(function () {
-        // 按需加載
-        var scriptList = {};
-        var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-        if (4000 < scrollTop) {
-            load('./js/countUp.js', countUp);
-        }
-        window.addEventListener('scroll', function () {
-            var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-            var url = '';
-            if (4000 < scrollTop) {
-                load('./js/countUp.js', countUp);
-            }
-        });
-        function load(url, callback) {
-            if (!scriptList.hasOwnProperty(url)) {
-                var script = document.createElement('script');
-                script.type = 'text/javascript';
-                script.src = url;
-                document.body.appendChild(script);
-                scriptList[url] = script;
-                if (typeof (callback) !== 'undefined') {
-                    script.onload = function () {
-                        callback();
-                    }
-                }
-            }
-        }
-        // 数字滚动
-        function countUp() {
-            var yearCounter = new CountUp("year", 0, 9, 0, 2);
-            yearCounter.start();
-            // numAnim.update(135);
-            // numAnim.start();
-            var customerCounter = new CountUp("customer", 0, 6000, 0, 2);
-            customerCounter.start();
-
-            var peopleCounter = new CountUp("people", 0, 50, 0, 2);
-            peopleCounter.start();
-
-            var cityCounter = new CountUp("city", 0, 260, 0, 2);
-            cityCounter.start();
-
-            var provinceCounter = new CountUp("province", 0, 28, 0, 2);
-            provinceCounter.start();
-        }
-    })
-</script>
-<script>
-    AOS.init({
-        easing: 'ease-out-back',
-        duration: 1500
-    });
-</script>
 </html>

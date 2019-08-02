@@ -13,7 +13,6 @@
     <link type="text/css" rel="stylesheet" href="./css/about/style.css">
     <link type="text/css" rel="stylesheet" href="./css/about/about.css">
     <link type="text/css" rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/aos.css" />
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/jquery.SuperSlide.2.1.3.js"></script>
 </head>
@@ -115,7 +114,7 @@
         </div>
     </div>
     <div class='_time'>
-        <div id="timeline" aos="zoom-in-down">
+        <div id="timeline">
             <ul id="dates">
                 <li><a href="#2016-7-1">2016</a></li>
                 <li><a href="#2016-10-1">2016</a></li>
@@ -217,7 +216,7 @@
         </div>
     </div>
     <div class='_certificate'>
-        <div class='_img w' aos="zoom-in-down">
+        <div class='_img w' >
             <img src="./imgs/about/1.png" alt="">
             <img src="./imgs/about/2.png" alt="">
             <img src="./imgs/about/3.png" alt="" class='_mr'>
@@ -229,7 +228,7 @@
 
     <!-- 关于我们 -->
     <!-- <div class='_about'> -->
-    <div class='_mission' aos="fade-up">
+    <div class='_mission'>
         <div>
             <h3>微一案</h3>
             <h4>连续6年专注为企业提供软件、培训、咨询等社交新零售解决方案的标杆品牌。</h4>
@@ -300,19 +299,13 @@
             </div>
         </div>
     </div>
-    <script src="./js/highlight.min.js"></script>
-    <script type="text/javascript" src="./js/aos.js"></script>
     <script src="js/jquery.timelinr-0.9.6.js"></script>
     <script>
         $(function () {
             $().timelinr({
-                // arrowKeys: 'true',
                 autoPlay: 'true',
+                autoPlayPause:5000
             })
-        });
-        AOS.init({
-            easing: 'ease-out-back',
-            duration: 1500
         });
     </script>
 
