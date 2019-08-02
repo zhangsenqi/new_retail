@@ -74,17 +74,21 @@
 }
 ._online .mg-targets ._contents ._left {
     width: 600px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
-
+._online .mg-targets ._containers ._title {
+    width: 600px;
+    margin-left: 150px;
+}
 ._online  .mg-targets ._containers ul{
     width: 600px;
     text-align: left;
+    margin-left: 120px;
 }
 ._online  ._containers img{
-    width: 30%;
-    margin-left:100px; 
+    /* width: 30%; */
+    margin-right:100px; 
 }
 
 ._online .mg-targets ._containers ul li {

@@ -33,7 +33,7 @@
   _background: url(../../imgs/retail/banner/dot8.png) no-repeat 0 -16px; */
 }
 .focusBox .hd li:last-child {
-  padding: 0 14px;
+  padding: 0 22px;
 }
 
 .focusBox .hd .on {
@@ -68,21 +68,33 @@
   opacity: 0.5 !important;
 }
 .focusBox .pic li h1 {
-  position: absolute;
+  /* position: absolute; */
+  width: 100%;
+  padding-top: 350px;
+  text-align: center;
   font-size: 50px;
-  top: 350px;
+  /* top: 350px; */
 }
 .focusBox .pic li .content {
-  position: absolute;
+  /* position: absolute; */
+  padding-top: 100px;
+  width: 100%;
+  text-align: center;
   font-size: 60px;
-  top: 450px;
+  /* top: 450px; */
 }
 .focusBox .pic li .sub {
-  position: absolute;
+  /* position: absolute; */
   font-size: 30px;
-  top: 550px;
+  padding-top: 100px;
+  width: 100%;
+  text-align: center;
+  /* top: 550px; */
 }
-
+.focusBox .hd {
+  position: absolute;
+  bottom: 120px;
+}
 .focusBox .hd li:after {
   position: relative;
   width: 10px;
