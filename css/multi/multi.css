@@ -11,14 +11,16 @@
   text-align: center;
 }
 
-h2 {
+._white h2,._black h2 {
   font-size: 40px;
   color: rgba(17, 17, 17, 1);
   margin-top: 100px;
 }
-h3 {
+._white h3,._black h3 {
+  width: 960px;
+  margin:30px auto;
   font-size: 18px;
-  margin-top: 30px;
+  line-height: 30px;
   color: #666;
 }
 ._bgone {
@@ -59,11 +61,11 @@ h3 {
   padding-top: 100px;
   text-align: left;
 }
-h4 {
+._white h4,._black h4 {
   font-size: 20px;
   color: rgba(17, 17, 17, 1);
 }
-h4::before {
+._white h4::before,._black h4::before {
   content: "";
   width: 10px;
   height: 10px;

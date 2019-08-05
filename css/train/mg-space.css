@@ -79,6 +79,8 @@
 
 ._online .mg-targets ._containers ._title {
     width: 600px;
+    font-size: 20px;
+    color: #333;
     margin-left: 150px;
 }
 ._online  .mg-targets ._containers ul{

@@ -175,17 +175,22 @@ h2 {
   background-size: cover;
 }
 ._honor ._mission h3 {
+  color: #fff;
   font-size: 36px;
   padding-top: 40px;
 }
 ._honor ._mission h4 {
+  color: #fff;
   font-size: 24px;
   padding-top: 22px;
 }
 ._honor ._certificate {
-  height: 600px;
+  height: 700px;
   background: url(../../imgs/about/city.png) 0 bottom no-repeat;
   background-size: cover;
+}
+._honor ._img {
+  padding-top: 120px;
 }
 ._honor ._img img {
   margin: 40px 64px;

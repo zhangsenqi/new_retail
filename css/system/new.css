@@ -103,9 +103,6 @@
     display: flex;
     width: 1100px;
     flex-wrap: wrap; 
-    /* justify-content: space-around; */
-    justify-content: flex-start;
-    align-content: flex-start;
 }
 
 .slideGroup .slideBox ._right-content-item {
@@ -118,9 +115,9 @@
     background: url(../../imgs/system/award/smallbg.png) no-repeat 0px 0px;
     overflow: hidden;
     margin-top:16px;
-    
     cursor: pointer;
     overflow: hidden;
+    margin-right:10px;
 }
 /* ._right-content-item + ._right-content-item{
     margin-left:10px;

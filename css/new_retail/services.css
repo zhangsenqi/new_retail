@@ -29,11 +29,17 @@
     font-size: 24px;
     text-align: center;
     padding-bottom: 20px;
-   }
+  }
   .services li:hover {
     background:linear-gradient(0deg,rgba(120,94,251,0.7) 0%,rgba(252,98,93,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = #785EFB, endColorstr = #FC625D);   
 }
+  .services li a{
+    color: #fff;
+  }
+  .services li:hover a{
+    color: #fd625c;
+  }
 
 ._desc {
     color: #E6E6E6;
