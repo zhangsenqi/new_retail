@@ -44,7 +44,7 @@
                             </li>
                             <li id="m2" class="m">
                                 <h3>
-                                   社交新零售解决方案
+                                    社交新零售解决方案
                                 </h3>
                                 <div class="sub">
                                     <dl>
@@ -109,6 +109,13 @@
         <!-- banner部分 -->
         <div class="focusBox" style="margin:0 auto">
             <ul class="pic">
+                <li style="background: url(./imgs/retail/banner/4.png) ;height:940px">
+                    <div class='w'>
+                        <h1 class='animated fadeInLeft'>微一案</h1>
+                        <div class="animated fadeInLeft content">连续6年专注为企业提供软件、培训、咨询等</div>
+                        <div class="animated fadeInLeft sub">社交新零售解决方案的标杆品牌</div>
+                    </div>
+                </li>
                 <li style="background: url(./imgs/retail/banner/1.png) ;height:940px">
                     <div class='w'>
                         <h1 class='animated fadeInLeft'>咨 询</h1>
@@ -130,13 +137,6 @@
                         <div class="animated fadeInLeft sub">连续6年专注为近万家企业提供社交新零售软件服务</div>
                     </div>
                 </li>
-                <li style="background: url(./imgs/retail/banner/4.png) ;height:940px">
-                    <div class='w'>
-                        <h1 class='animated fadeInLeft'>微一案</h1>
-                        <div class="animated fadeInLeft content">连续6年专注为企业提供软件、培训、咨询等</div>
-                        <div class="animated fadeInLeft sub">社交新零售解决方案的标杆品牌</div>
-                    </div>
-                </li>
             </ul>
             <ul class="hd">
                 <li></li>
@@ -148,7 +148,7 @@
 
     </div>
     <script type="text/javascript">
-        jQuery(".focusBox").slide({ mainCell: ".pic", effect: "fold", autoPlay: true, delayTime: 600, trigger: "click" });
+        jQuery(".focusBox").slide({ mainCell: ".pic", effect: "fold", autoPlay: true, interTime: 5000, trigger: "click" });
     </script>
     </div>
     <!-- 消息部分 -->
@@ -171,13 +171,13 @@
     </div> -->
     <!-- 系统简介 -->
     <div class='w section'>
-        <div class='_retail_title' >
+        <div class='_retail_title'>
             <h3 class="_retail_second-title">微一案社交新零售系统</h3>
             <h3 class="_retail_second-desc">连续6年专注为近万家企业提供社交新零售软件服务</h3>
             <h3 class="_retail_second-subtitle">10余种动力模型，打造社交新零售核能战舰</h3>
         </div>
         <div class="_retail_second-contailer clearfix" id='retail_second-contailer'>
-            <div class="_icon" >
+            <div class="_icon">
                 <img src="./imgs/retail/icons/model-r.png" id="my-icon11" alt="">
                 <div class="_line"></div>
                 <div class="_title">全案新零售模式</div>
@@ -185,7 +185,7 @@
                     新零售层级发货模式、渠道模式、新零售模式、社群团购模式，各具特色，支持拓展
                 </div>
             </div>
-            <div class="_icon" >
+            <div class="_icon">
                 <img src="./imgs/retail/icons/reward-r.png" id="my-icon2" alt="">
                 <div class="_line"></div>
                 <div class="_title">百余种奖励打法</div>
@@ -194,7 +194,7 @@
                     <div style='font-size:12px;color: #999'>注：基于其实的销售情况和劳务情况予以开通</div>
                 </div>
             </div>
-            <div class="_icon" >
+            <div class="_icon">
                 <img src="./imgs/retail/icons/manager-r.png" id="my-icon3" alt="">
                 <div class="_line"></div>
                 <div class="_title">代理商管理</div>
@@ -202,7 +202,7 @@
                     精确赋能不同等级；代理关系清晰展示；代理任务规范化；代理回归自动化
                 </div>
             </div>
-            <div class="_icon" >
+            <div class="_icon">
                 <img src="./imgs/retail/icons/market-r.png" id="my-icon4" alt="">
                 <div class="_line"></div>
                 <div class="_title">营销宝</div>
@@ -210,7 +210,7 @@
                     零售营销——数款引流活动，裂变式、社交化传播；代理营销——福利派发，调动代理积极性
                 </div>
             </div>
-            <div class="_icon" >
+            <div class="_icon">
                 <img src="./imgs/retail/icons/retailxd-r.png" id="my-icon5" alt="">
                 <div class="_line"></div>
                 <div class="_title">零售小店</div>
@@ -260,7 +260,7 @@
                 </div>
             </div>
         </div>
-        <div class="_retail_second-footer" aos="fade-down">
+        <div class="_retail_second-footer">
             融数千项功能于一体，
             <div>了解更多请点击</div>
             <div>
@@ -269,10 +269,10 @@
         </div>
     </div>
     <!-- 线上线下简介 -->
-    <div class="slideGroup" style="margin:0 auto"  id="line">
-        <h2 aos="flip-left">全案培训</h2>
-        <h5 aos="flip-left">直营商学院，线上线下系统化培训课程，帮助合作企业打造成熟的商学院体系</h5>
-        <div class="parHd" aos="flip-left">
+    <div class="slideGroup" style="margin:0 auto" id="line">
+        <h2>全案培训</h2>
+        <h5>直营商学院，线上线下系统化培训课程，帮助合作企业打造成熟的商学院体系</h5>
+        <div class="parHd">
             <div class='xs'>
                 <ul>
                     <li>线上</li>
@@ -452,7 +452,8 @@
                 <a class="sNext" href="javascript:void(0)"></a>
             </div><!-- slideBox End -->
         </div><!-- parBd End -->
-        <div class='more' aos="flip-left"> <a href="train.html">了解更多<img src="./imgs/retail/train/long-arrow.png" alt=""></a></div>
+        <div class='more' aos="flip-left"> <a href="train.html">了解更多<img src="./imgs/retail/train/long-arrow.png"
+                    alt=""></a></div>
         <script type="text/javascript">
             jQuery(".slideGroup .slideBox").slide({ mainCell: "ul", vis: 5, prevCell: ".sPrev", nextCell: ".sNext", effect: "leftLoop" });
             jQuery(".slideGroup").slide({ titCell: ".parHd li", mainCell: ".parBd" });
@@ -568,7 +569,7 @@
         </div>
     </div>
     <!-- 地球  -->
-    <div class="_retail_six" >
+    <div class="_retail_six">
         <div class="_retail_six-container">
             <div class="_earth">
                 <img src="./imgs/retail/bigData/earth.png" alt="">
@@ -738,15 +739,15 @@
             provinceCounter.start();
         }
         // 点击跳转
-       $('#retail_second-contailer').click(function(){
-            location.href='system.html';
-       })
-       $('#qapxxs').click(function(){
-            location.href='train.html#qapxxs';
-       })
-       $('#qapxxx').click(function(){
-            location.href='train.html#qapxxx';
-       })
+        $('#retail_second-contailer').click(function () {
+            location.href = 'system.html';
+        })
+        $('#qapxxs').click(function () {
+            location.href = 'train.html#qapxxs';
+        })
+        $('#qapxxx').click(function () {
+            location.href = 'train.html#qapxxx';
+        })
     })
 </script>
 <script>
