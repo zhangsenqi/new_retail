@@ -200,6 +200,7 @@
 ._about ._creed ._content ._right {
   float: left;
   height: 490px;
+  width: 800px;
 }
 ._about ._creed ._content ._right ._top {
   float: left;

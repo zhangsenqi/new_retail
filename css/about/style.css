@@ -185,12 +185,12 @@ h2 {
   padding-top: 22px;
 }
 ._honor ._certificate {
-  height: 700px;
+  height: 650px;
   background: url(../../imgs/about/city.png) 0 bottom no-repeat;
   background-size: cover;
 }
 ._honor ._img {
-  padding-top: 120px;
+  padding-top: 50px;
 }
 ._honor ._img img {
   margin: 40px 64px;
