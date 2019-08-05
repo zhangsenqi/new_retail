@@ -444,7 +444,7 @@
             <div class="parBd">
                 <div class="slideBox">
                     <div class='_title'>零售营销</div>
-                    <div class='_desc'>十多种爆款营销活动，社交式用户粘性，裂变式分享传播，激活/沉淀流量资源，指数级变现，不断刷新销量。</div>
+                    <div class='_desc'>数种爆款营销活动，社交式用户粘性，裂变式分享传播，激活/沉淀流量资源，指数级变现，不断刷新销量。</div>
                     <div class='_content'>
                         <div>
                             <div id="retail">
@@ -480,7 +480,7 @@
                 </div><!-- slideBox End -->
                 <div class="slideBox" aos="flip-right">
                     <div class='_title'>代理营销</div>
-                    <div class='_desc'>五大代理营销活动，满足代理切实需求，更多福利火热派发，彻底调动代理积极性，注入团队全新活力。</div>
+                    <div class='_desc'>数款代理营销活动，满足代理切实需求，更多福利火热派发，彻底调动代理积极性，注入团队全新活力。</div>
                     <div class='_content'>
                         <div>
                             <div id="retail2">
@@ -527,7 +527,7 @@
             <div class='_title'>玩转零售小店</div>
             <div class='_desc'>便捷的线上购物平台，小店商品支持一键分享，分享佣金直观展示，一键自动生成分享海报，消费者扫码直达。</div>
             <div class='_img'>
-                <img src="./imgs/system/shop/shop.png" alt="">
+                <img src="./imgs/system/shop/shop.png" alt="" class='_mr'>
                 <!-- <img src="./imgs/system/shop/show.png" alt=""> -->
                 <img src="./imgs/system/shop/invite.png" alt="">
             </div>
@@ -728,7 +728,7 @@
             document.getElementById('content').innerHTML = html;
         }
 
-        templateDataDiv(data.tags[1])
+        templateDataDiv(data.tags[0])
         //  渲染创享营销宝 =》代理营销的左边的数据
         function templateData2() {
             var html = template("marketing2", data2);
@@ -747,7 +747,7 @@
             var html = template("marketing3", data);
             document.getElementById('content2').innerHTML = html;
         }
-        templateDataDiv2(data2.tags[1]);
+        templateDataDiv2(data2.tags[0]);
     })
 </script>
  <script>
