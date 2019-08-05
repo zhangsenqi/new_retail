@@ -68,12 +68,14 @@
 ._online  ._text img{
     margin:20px 0;
 }
-._online .mg-targets ._contents {
-    text-align: left;
-   
+._online .mg-targets ._containers {
+   display: flex;
+   flex-wrap: nowrap;
+   min-width: 1300px;
+   justify-content: space-between;
 }
 ._online .mg-targets ._contents ._left {
-    width: 600px;
+    /* width: 200px; */
     margin-left: 100px;
 }
 
@@ -89,7 +91,6 @@
     margin-left: 120px;
 }
 ._online  ._containers img{
-    /* width: 30%; */
     margin-right:100px; 
 }
 
