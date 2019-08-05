@@ -39,7 +39,7 @@
 }
 ._about ._slogn {
   text-align: left;
-  padding-top: 100px;
+  /* padding-top: 100px; */
 }
 ._about ._slogn img {
   width: 400px;
@@ -147,7 +147,7 @@
   padding-top: 40px;
 }
 ._about ._creed {
-  height: 800px;
+  height: 770px;
   text-align: left;
   background-color: #f5f5f6;
   color: #333;
@@ -155,7 +155,7 @@
 ._about ._creed ._title {
   font-size: 40px;
   color: #111;
-  padding-top: 130px;
+  padding-top: 100px;
   text-align: center;
 }
 ._about ._creed ._content {
@@ -260,13 +260,13 @@
   -o-border-radius: 4px;
 }
 ._about ._contact {
-  height: 1050px;
+  height: 950px;
   text-align: left;
 }
 ._about ._contact h3 {
   font-size: 40px;
   color: #111;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   padding-bottom: 80px;
 }
 ._about ._contact ul li {
@@ -275,7 +275,7 @@
   padding-bottom: 40px;
 }
 ._about ._recruit ._job ._content {
-  margin: 40px 60px;
+  margin: 0px 60px;
 }
 ._about ._recruit ._job ._content h3 {
   color: #fd625c;
@@ -288,7 +288,7 @@
 ._about ._recruit h4 {
   font-size: 32px;
   color: #111;
-  padding: 80px 20px;
+  padding: 0px 20px;
   text-align: left;
 }
 ._about ._recruit ._email {
@@ -299,7 +299,7 @@
 ._about ._recruit h3 {
   font-size: 32px;
   color: #111;
-  margin-top: 40px;
+  margin-top: 50px;
   padding: 40px 0px;
 }
 ._about ._recruit ._img {

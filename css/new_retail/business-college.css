@@ -237,6 +237,11 @@
   display: block;
   cursor: pointer;
 }
+.slideGroup .parBd ul li ._btn:hover{
+  
+  color: #FD625C;
+  border:1px solid #FD625C;
+}
 .slideGroup .parBd ul li:hover ._mask {
   display: block;
 }

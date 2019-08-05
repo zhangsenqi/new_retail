@@ -1,6 +1,7 @@
 .consult {
-  height: 1100px;
+  height: 1150px;
   background: url(../../imgs/retail/consult/bg.png) no-repeat 0 0;
+  background-size: 100% 100%;
 }
 .consult h2 {
   text-align: center;
@@ -9,7 +10,7 @@
   padding-top: 100px;
 }
 .consult ul {
-  padding-top: 60px;
+  padding-top: 70px;
   width: 1084px;
   margin: 0 auto;
 }
@@ -23,7 +24,7 @@
 .consult li:hover {
   background: url(../../imgs/retail/consult/bg-header.png) no-repeat 0 0;
   background-color: #fff;
-  box-shadow:0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
 }
 .ml {
   margin-left: 50px;
@@ -68,4 +69,10 @@
   cursor: pointer;
   color: #fd625c;
   border: 1px solid #fd625c;
+}
+.consult ._btn:hover a {
+  display: block;
+  color: #fd625c;
+  width: 100%;
+  height: 100%;
 }
