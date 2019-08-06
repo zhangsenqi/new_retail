@@ -59,10 +59,10 @@
   float: left;
   width: 32%;
   height: 100px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 ._train ._hot ._right ul li:hover {
-  box-shadow: 2px 2px 10px #ccc;
+  /* box-shadow: 2px 2px 10px #ccc; */
 }
 ._train ._hot ._right ul li img {
   padding-top: 20px;
@@ -305,7 +305,7 @@
   display: inline-block;
   width: 280px;
   height: 550px;
-  cursor: pointer;
+  /* cursor: pointer; */
   text-align: center;
   margin-right: 20px;
   position: relative;

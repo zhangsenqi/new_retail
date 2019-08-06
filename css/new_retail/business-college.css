@@ -1,4 +1,3 @@
-
 .slideGroup {
   height: 950px;
   color: #fff;
@@ -8,7 +7,6 @@
 .slideGroup h2 {
   padding-top: 100px;
   font-size: 40px;
-
 }
 .slideGroup h5 {
   padding-top: 40px;
@@ -17,13 +15,13 @@
 .slideGroup .parHd {
   height: 30px;
   line-height: 30px;
-  margin-top:80px;
+  margin-top: 80px;
   padding: 10px 20px;
-  border-bottom: 1px solid #6A6A6A;
+  border-bottom: 1px solid #6a6a6a;
   position: relative;
   margin-bottom: 20px;
 }
-.xs{
+.xs {
   width: 300px;
   margin: 0 auto;
   font-size: 30px;
@@ -32,7 +30,6 @@
   float: left;
   height: 32px;
   width: 340px;
- 
 }
 .slideGroup .parHd ul li {
   float: left;
@@ -43,7 +40,7 @@
   height: 30px;
   /* background: #fff; */
   padding-bottom: 10px;
-  border-bottom: 2px solid #FD625C;
+  border-bottom: 2px solid #fd625c;
 }
 .slideGroup .slideBox {
   box-sizing: border-box;
@@ -52,7 +49,7 @@
   padding: 60px 50px 0px 75px;
   position: relative;
   width: 1300px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 .slideGroup .sPrev,
@@ -80,10 +77,10 @@
   overflow: hidden;
   zoom: 1;
   width: 1200px;
-  margin-left:40px;
+  margin-left: 40px;
   background: transparent;
 }
- .slideGroup .parBd ul li {
+.slideGroup .parBd ul li {
   float: left;
   _display: inline;
   overflow: hidden;
@@ -105,7 +102,7 @@
 .slideGroup .parBd ul li .inner ._icon {
   width: 24px;
   height: 24px;
-  margin-top: 100px;
+  margin-top: 120px;
   margin-bottom: 30px;
   z-index: 10;
 }
@@ -123,7 +120,11 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(0deg,rgba(120,94,251,0.7) 0%,rgba(252,98,93,1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(120, 94, 251, 0.7) 0%,
+    rgba(252, 98, 93, 1) 100%
+  );
 }
 .slideGroup .parBd ul li .inner ._line {
   width: 30px;
@@ -201,7 +202,7 @@
   background-image: url(../../imgs/retail/train/underline/zhaoshang.png);
   background-size: cover;
 }
-.slideGroup .parBd ul li.slide22{
+.slideGroup .parBd ul li.slide22 {
   background-image: url(../../imgs/retail/train/underline/wenpanzengzhang.png);
   background-size: cover;
 }
@@ -225,7 +226,7 @@
   -webkit-animation: change 0.5s ease-out;
 }
 .slideGroup .parBd ul li:hover ._icon {
-  margin-top:40px;
+  margin-top: 40px;
 }
 .slideGroup .parBd ul li:hover ._line {
   display: none;
@@ -237,29 +238,28 @@
   display: block;
   cursor: pointer;
 }
-.slideGroup .parBd ul li ._btn:hover{
-  
-  color: #FD625C;
-  border:1px solid #FD625C;
+.slideGroup .parBd ul li ._btn:hover {
+  color: #fd625c;
+  border: 1px solid #fd625c;
 }
 .slideGroup .parBd ul li:hover ._mask {
   display: block;
 }
 @keyframes change {
   0% {
-      transform: scale(1);
+    transform: scale(1);
   }
   100% {
-      transform: scale(1.05);
+    transform: scale(1.05);
   }
 }
 
-.more{
+.more {
   font-size: 14px;
   margin-top: 40px;
 }
-.more a{
-  color: #FFFEFE;
+.more a {
+  color: #fffefe;
 }
 .more img {
   margin-left: 16px;

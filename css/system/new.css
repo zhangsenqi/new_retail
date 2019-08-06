@@ -1,6 +1,6 @@
 
 .slideGroup {
-    height: 800px;
+    height: 750px;
     color: #fff;
     text-align: center;
     background-color: #F5F5F6;
@@ -87,7 +87,7 @@
     display: flex;
     cursor: pointer;
     width: 980px;
-    height: 411px;
+    height: 370px;
     /* background: url(../../imgs/system/award/bigbg.png) no-repeat 0px 0px; */
 }
 
@@ -115,7 +115,6 @@
     background: url(../../imgs/system/award/smallbg.png) no-repeat 0px 0px;
     overflow: hidden;
     margin-top:16px;
-    cursor: pointer;
     overflow: hidden;
     margin-right:10px;
 }
@@ -124,6 +123,7 @@
 } */
 .slideGroup .slideBox ._right-content-item:hover{
     background: url(../../imgs/system/award/hoverbg.png) no-repeat 0px 0px;
+    box-shadow: 4px 4px 14px #ccc;
 }
 
 .slideGroup .slideBox ._right-content-item ._word {
