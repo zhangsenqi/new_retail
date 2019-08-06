@@ -17,9 +17,78 @@
 	<link type="text/css" rel="stylesheet" href="./css/new_retail/services.css">
 	<link type="text/css" rel="stylesheet" href="./css/new_retail/retail-six.css">
 	<link type="text/css" rel="stylesheet" href="./css/footer.css">
-	<link rel="stylesheet" href="./css/aos.css" />
 	<script type="text/javascript" src="./js/jquery.min.js"></script>
 	<script type="text/javascript" src="./js/jquery.SuperSlide.2.1.3.js"></script>
+	<style type="text/css">
+		.video {
+			position: fixed;
+			z-index: 10000000;
+			padding-left: 250px;
+			margin-top: -50px;
+		}
+
+		.videolist {
+			position: relative;
+			float: left;
+			width: 840px;
+			height: 300px;
+			margin-left: 100px;
+			/* margin-right: 50px; */
+			margin-top: 15px;
+			margin-bottom: 30px;
+		}
+
+		.videolist:hover {
+			cursor: pointer;
+		}
+
+		.videolist .bottom {
+			box-sizing: border-box;
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			width: 170px;
+			height: 60px;
+			border: 2px solid rgba(255, 255, 255, 1);
+			border-radius: 8px;
+			line-height: 55px;
+			color: #fff;
+			font-size: 18px;
+			letter-spacing:4px;
+			padding-left:50px;
+			background: url(./imgs/retail/banner/guankan.png) no-repeat 20px 16px;
+		}
+
+		.videoed {
+			display: none;
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			left: 45%;
+			top: 45%;
+			z-index: 99;
+			border-radius: 100%;
+		}
+
+		.videos {
+			display: none;
+			border: 1px solid #080808;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin-left: -590px;
+			margin-top: -210px;
+			z-index: 10000000000;
+			width: 1080px;
+			height: 360px;
+		}
+
+		.vclose {
+			position: absolute;
+			right: 1%;
+			top: 1%;
+			border-radius: 100%;
+			cursor: pointer;
+		}
+	</style>
 </head>
 
 <body>
@@ -29,7 +98,9 @@
 			<div class='w'>
 				<div class='nav-logo'>
 					<div class='logo'>
-						<img src="./imgs/logo.png" alt="">
+						<a href='index.html'>
+							<img src="./imgs/logo.png" alt="">
+						</a>
 						<div class='logo-title'>
 							<div>连续6年专注为企业提供软件、培训、咨询等</div>
 							<div>社交新零售解决方案的标杆品牌</div>
@@ -39,7 +110,7 @@
 						<ul class="nav fr clearfix">
 							<li id="m1" class="m">
 								<h3>
-									首页
+									<a href='index.html'>首页</a>
 								</h3>
 							</li>
 							<li id="m2" class="m">
@@ -49,9 +120,9 @@
 								<div class="sub">
 									<dl>
 										<dd class='title'>社交新零售系统</dd>
-										<dd><a href="./system.html">新零售层级模式</a></dd>
+										<dd><a href="./system.html#kernel">新零售层级模式</a></dd>
 										<dd><a href="./system.html">新零售模式</a></dd>
-										<dd><a href="./system.html">创客模式</a></dd>
+										<!-- <dd><a href="./system.html">创客模式</a></dd> -->
 										<dd><a href="./system.html">渠道模式</a></dd>
 										<dd><a href="./system.html">社群团购模式</a></dd>
 									</dl>
@@ -111,10 +182,21 @@
 			<ul class="pic">
 				<li style="background: url(./imgs/retail/banner/4.png) ;height:940px">
 					<div class='w'>
-						<h1 class='animated fadeInLeft'>微一案</h1>
-						<div class="animated fadeInLeft content">连续6年专注为企业提供软件、培训、咨询等</div>
-						<div class="animated fadeInLeft sub">社交新零售解决方案的标杆品牌</div>
+						<h1 class='animated fadeInLeft'>微一案
+							<div class="video ">
+								<div class="container">
+									<div class="videolist" ipath="./wya.mp4">
+										<div class='bottom'>
+											观看视频
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</h1>
 					</div>
+					<div class="animated fadeInLeft content">连续6年专注为企业提供软件、培训、咨询等</div>
+					<div class="animated fadeInLeft sub">社交新零售解决方案的标杆品牌</div>
 				</li>
 				<li style="background: url(./imgs/retail/banner/1.png) ;height:940px">
 					<div class='w'>
@@ -122,7 +204,6 @@
 						<div class="animated fadeInLeft content">起盘+稳盘+增盘，全线打通企业运营和管理思路</div>
 						<div class="animated fadeInLeft sub">让你的微商事业更简单</div>
 					</div>
-
 				</li>
 				<li style="background: url(./imgs/retail/banner/2.png) ;height:940px">
 					<div class='w'>
@@ -134,7 +215,7 @@
 				<li style="background: url(./imgs/retail/banner/3.png) ;height:940px">
 					<div class='w'>
 						<h1 class='animated fadeInLeft'>社交新零售系统</h1>
-						<div class="animated fadeInLeft sub">连续6年专注为近万家企业提供社交新零售软件服务</div>
+						<div class="animated fadeInLeft content">连续6年专注为近万家企业提供社交新零售软件服务</div>
 					</div>
 				</li>
 			</ul>
@@ -145,7 +226,7 @@
 				<li></li>
 			</ul>
 		</div>
-
+		<div class="videos"></div>
 	</div>
 	<script type="text/javascript">
 		jQuery(".focusBox").slide({ mainCell: ".pic", effect: "fold", autoPlay: true, interTime: 5000, trigger: "click" });
@@ -280,7 +361,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="parBd" aos="flip-right">
+		<div class="parBd">
 			<div class="slideBox">
 				<a class="sPrev" href="javascript:void(0)"></a>
 				<ul id='qapxxs'>
@@ -292,7 +373,7 @@
 							<div class="_mask"></div>
 							<div class="_line"></div>
 							<h3>社交新零售大讲堂</h3>
-							<span class="_desc">通过语音、视频、图片、文字等各种形式，学习新零售行业前沿课程，为代理和自己的微商事业赋能。</span>
+							<span class="_desc">通过语音、视频、图片、文字等各种形式，学习新零售行业前沿课程，为代理和自己的微商事业赋能</span>
 							<div class="_btn">查看详情</div>
 						</div>
 
@@ -317,7 +398,7 @@
 							<div class="_mask"></div>
 							<div class="_line"></div>
 							<h3>战狼特训营</h3>
-							<span class="_desc">提升核心中级代理的实操能力，增强代理信心，让她们能够通过朋友圈实现转化，掌握引流技巧。</span>
+							<span class="_desc">提升核心中级代理的实操能力，增强代理信心，让她们能够通过朋友圈实现转化，掌握引流技巧</span>
 							<div class="_btn">查看详情</div>
 						</div>
 					</li>
@@ -353,7 +434,7 @@
 							<div class="_mask"></div>
 							<div class="_line"></div>
 							<h3>网红引流爆破营</h3>
-							<span class="_desc">手把手落地教会代理，团队引流，个人引流，让你的人脉再也不是问题。</span>
+							<span class="_desc">手把手落地教会代理，团队引流，个人引流，让你的人脉再也不是问题</span>
 							<div class="_btn">查看详情</div>
 						</div>
 					</li>
@@ -379,12 +460,12 @@
 					<li class='slide20'>
 						<div class='inner'>
 							<div class="_icon">
-								<img src="./imgs/retail/train/underline/tuoke.png" alt="">
+								<img src="./imgs/retail/train/underline/zongcaiceleban.png" alt="">
 							</div>
 							<div class="_mask"></div>
 							<div class="_line"></div>
-							<h3>拓客营</h3>
-							<span class="_desc">大屏作战系统，实时展现小组和代理个人成交数据</span>
+							<h3>社交新零售总裁策略班</h3>
+							<span class="_desc">电商法解读，千城万店新零售，深度把脉行业走向，辨析“新零售+”模式</span>
 							<div class="_btn">查看详情</div>
 						</div>
 					</li>
@@ -427,12 +508,12 @@
 					<li class='slide24'>
 						<div class='inner'>
 							<div class="_icon">
-								<img src="./imgs/retail/train/underline/zongcaiceleban.png" alt="">
+								<img src="./imgs/retail/train/underline/tuoke.png" alt="">
 							</div>
 							<div class="_mask"></div>
 							<div class="_line"></div>
-							<h3>社交新零售总裁策略班</h3>
-							<span class="_desc">电商法解读，千城万店新零售，深度把脉行业走向，辨析”新零售+“模式</span>
+							<h3>拓客营</h3>
+							<span class="_desc">大屏作战系统，实时展现小组和代理个人成交数据</span>
 							<div class="_btn">查看详情</div>
 						</div>
 					</li>
@@ -452,7 +533,7 @@
 				<a class="sNext" href="javascript:void(0)"></a>
 			</div><!-- slideBox End -->
 		</div><!-- parBd End -->
-		<div class='more' aos="flip-left"> <a href="train.html">了解更多<img src="./imgs/retail/train/long-arrow.png"
+		<div class='more' > <a href="train.html">了解更多<img src="./imgs/retail/train/long-arrow.png"
 					alt=""></a></div>
 		<script type="text/javascript">
 			jQuery(".slideGroup .slideBox").slide({ mainCell: "ul", vis: 5, prevCell: ".sPrev", nextCell: ".sNext", effect: "leftLoop" });
@@ -461,8 +542,8 @@
 	</div>
 	<div class='consult' id='zxfn'>
 		<div class='w'>
-			<h2 aos="flip-up">咨询赋能</h2>
-			<ul class='clearfix' aos="fade-up">
+			<h2>咨询赋能</h2>
+			<ul class='clearfix'>
 				<li>
 					<img src="./imgs/retail/consult/question.png" alt="">
 					<div class='_line'></div>
@@ -523,8 +604,8 @@
 	<!-- 多维服务 -->
 	<div class='services' id='dwfw'>
 		<div class='w'>
-			<h2 aos="zoom-in">多维服务</h2>
-			<ul class='clearfix' aos="zoom-in-up">
+			<h2>多维服务</h2>
+			<ul class='clearfix'>
 				<li>
 					<img src="./imgs/retail/services/tui.png" alt="">
 					<h3>百度营销推广</h3>
@@ -748,13 +829,22 @@
 		$('#qapxxx').click(function () {
 			location.href = 'train.html#qapxxx';
 		})
-	})
-</script>
-<script>
-	AOS.init({
-		easing: 'ease-out-back',
-		duration: 1500
 	});
-</script>
 
+	$('.videolist').each(function () { //遍历视频列表
+		$(this).click(function () { //这个视频被点击后执行
+			var img = $(this).attr('vpath');//获取视频预览图
+			var video = $(this).attr('ipath');//获取视频路径
+			$('.videos').html("<video id=\"video\" poster='" + img + "' style='width: 1080px' src='" + video + "' preload=\"auto\" controls=\"controls\" autoplay=\"autoplay\"></video><img onClick=\"close1()\" class=\"vclose\" src=\"imgs/gb.png\" width=\"25\" height=\"25\">");
+			$('.videos').show();
+		});
+	});
+
+	function close1() {
+		var v = document.getElementById('video');//获取视频节点
+		$('.videos').hide();//点击关闭按钮关闭暂停视频
+		v.pause();
+		$('.videos').html();
+	}
+</script>
 </html>

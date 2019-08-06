@@ -67,37 +67,42 @@
   filter: alpha(opacity=50) !important;
   opacity: 0.5 !important;
 }
+.focusBox .pic li{
+  padding-left:100px;
+}
 .focusBox .pic li h1 {
-  /* position: absolute; */
+  position: absolute;
   width: 100%;
-  padding-top: 350px;
+  /* padding-top: 350px; */
   text-align: left;
   font-size: 100px;
-  height: 100px;
   font-weight:bold;
-  /* top: 350px; */
+  top: 350px;
+  z-index: 1;
 }
+
 .focusBox .pic li .content {
-  /* position: absolute; */
+  position: absolute;
   padding-top: 50px;
   width: 100%;
   text-align: left;
-  font-size: 44px;
-  height: 44px;
-  /* top: 450px; */
+  font-size: 40px;
+  top: 450px;
+  z-index: 0;
 }
 .focusBox .pic li .sub {
-  /* position: absolute; */
-  font-size: 44px;
+  position: absolute;
+  font-size: 40px;
   padding-top: 30px;
   width: 100%;
   text-align: left;
-  height: 30px;
-  /* top: 550px; */
+  top: 550px;
+  z-index: 0;
 }
 .focusBox .hd {
   position: absolute;
   bottom: 120px;
+  z-index: 0;
 }
 .focusBox .hd li:after {
   position: relative;

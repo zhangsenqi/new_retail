@@ -79,8 +79,8 @@
   -o-border-radius: 50%;
 }
 ._desc {
-  padding: 20px 25px;
-  font-size: 18px;
+  padding: 10px 25px;
+  font-size: 16px;
   color: rgba(102, 102, 102, 1);
   line-height: 36px;
 }

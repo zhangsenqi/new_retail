@@ -6,7 +6,7 @@
 }
 
 .c-nav:hover {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   z-index: 10000;
   width: 100%;
@@ -120,14 +120,18 @@
   color: #b9b9b9;
   font-size: 12px;
 }
-
+.c-nav .nav #m1 a {
+  color: #fff;
+}
 .c-nav .nav #m2 .sub {
   z-index: 1;
   width: 600px;
+  margin-top:8px;
   left: -118px;
 }
 .c-nav .nav #m3 .sub {
   z-index: 1;
   width: 100px;
+  margin-top:8px;
   left: -22px;
 }
