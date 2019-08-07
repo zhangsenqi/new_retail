@@ -58,6 +58,7 @@
     color:#000;
 }
  ._icon ._desc {
+    margin:0 auto;
     margin-top: 30px;
     font-size:14px;
     font-weight: 400;
@@ -65,8 +66,8 @@
     text-align: left;
     line-height: 28px;
     color:#333;
-    width: 180px;
-    margin:0 auto;
+    width: 190px;
+   
 }
 ._icon img {
     filter: grayscale(100%); 

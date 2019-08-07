@@ -22,6 +22,7 @@
   font-size: 18px;
   line-height: 30px;
   color: #666;
+ 
 }
 ._bgone {
   margin-top: 30px;
@@ -50,7 +51,7 @@
 }
 ._left {
   width: 550px;
-  padding: 150px;
+  padding: 120px;
   padding-top: 100px;
   text-align: left;
 }
@@ -58,11 +59,18 @@
   width: 550px;
   float: right;
   margin-right: 20px;
-  padding-top: 100px;
+  padding-top: 80px;
   text-align: left;
+}
+._white h4:first-child,._black h4:first-child {
+  font-size: 20px;
+  padding-top:0px; 
+  color: rgba(17, 17, 17, 1);
 }
 ._white h4,._black h4 {
   font-size: 20px;
+  /* border:1px solid red; */
+  padding-top:30px; 
   color: rgba(17, 17, 17, 1);
 }
 ._white h4::before,._black h4::before {

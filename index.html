@@ -47,35 +47,47 @@
 			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 			width: 170px;
 			height: 60px;
-			border: 2px solid rgba(255, 255, 255, 1);
+			border: 1px solid rgba(255, 255, 255, 1);
 			border-radius: 8px;
 			line-height: 55px;
 			color: #fff;
 			font-size: 18px;
-			letter-spacing:4px;
-			padding-left:50px;
+			letter-spacing: 4px;
+			padding-left: 50px;
 			background: url(./imgs/retail/banner/guankan.png) no-repeat 20px 16px;
 		}
 
-		.videoed {
+		/* .videoed {
 			display: none;
 			width: 50px;
 			height: 50px;
 			position: absolute;
 			left: 45%;
-			top: 45%;
+			top: 30%;
 			z-index: 99;
 			border-radius: 100%;
+		} */
+
+		.mask {
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, .7);
+			position: fixed;
+			z-index: 100000;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			display: none;
 		}
 
 		.videos {
 			display: none;
 			border: 1px solid #080808;
-			position: absolute;
+			position: fixed;
 			left: 50%;
 			top: 50%;
-			margin-left: -590px;
-			margin-top: -210px;
+			margin-left: -544px;
+			margin-top: -310px;
 			z-index: 10000000000;
 			width: 1080px;
 			height: 360px;
@@ -121,10 +133,10 @@
 									<dl>
 										<dd class='title'>社交新零售系统</dd>
 										<dd><a href="./system.html#kernel">新零售层级模式</a></dd>
-										<dd><a href="./system.html">新零售模式</a></dd>
+										<dd><a href="./system.html#kernel">新零售模式</a></dd>
 										<!-- <dd><a href="./system.html">创客模式</a></dd> -->
-										<dd><a href="./system.html">渠道模式</a></dd>
-										<dd><a href="./system.html">社群团购模式</a></dd>
+										<dd><a href="./system.html#kernel">渠道模式</a></dd>
+										<dd><a href="./system.html#kernel">社群团购模式</a></dd>
 									</dl>
 									<dl>
 										<dd class='title'>全案培训</dd>
@@ -190,33 +202,34 @@
 											观看视频
 										</div>
 									</div>
-
 								</div>
 							</div>
 						</h1>
+
+						<div class="animated fadeInLeft content">连续6年专注为企业提供软件、培训、咨询等</div>
+						<div class="animated fadeInLeft sub">社交新零售解决方案的标杆品牌</div>
 					</div>
-					<div class="animated fadeInLeft content">连续6年专注为企业提供软件、培训、咨询等</div>
-					<div class="animated fadeInLeft sub">社交新零售解决方案的标杆品牌</div>
 				</li>
-				<li style="background: url(./imgs/retail/banner/1.png) ;height:940px">
+				<li style="background: url(./imgs/retail/banner/1.png);height:940px">
 					<div class='w'>
-						<h1 class='animated fadeInLeft'>咨询赋能</h1>
-						<div class="animated fadeInLeft content">起盘+稳盘+增盘，全线打通企业运营和管理思路</div>
-						<div class="animated fadeInLeft sub">让你的微商事业更简单</div>
+						<h1 class='animated fadeInLeft'>社交新零售系统</h1>
+						<div class="animated fadeInLeft content">连续6年专注为近万家企业提供社交新零售软件服务</div>
 					</div>
 				</li>
-				<li style="background: url(./imgs/retail/banner/2.png) ;height:940px">
+				<li style="background: url(./imgs/retail/banner/2.png);height:940px">
 					<div class='w'>
 						<h1 class='animated fadeInLeft'>全案培训</h1>
 						<div class="animated fadeInLeft content">直营商学院，线上线下系统化培训课程</div>
 						<div class="animated fadeInLeft sub">帮助合作企业打造成熟的商学院体系</div>
 					</div>
 				</li>
-				<li style="background: url(./imgs/retail/banner/3.png) ;height:940px">
+				<li style="background: url(./imgs/retail/banner/3.png);height:940px">
 					<div class='w'>
-						<h1 class='animated fadeInLeft'>社交新零售系统</h1>
-						<div class="animated fadeInLeft content">连续6年专注为近万家企业提供社交新零售软件服务</div>
+						<h1 class='animated fadeInLeft'>咨询赋能</h1>
+						<div class="animated fadeInLeft content">起盘+稳盘+增盘，全线打通企业运营和管理思路</div>
+						<div class="animated fadeInLeft sub">让你的微商事业更简单</div>
 					</div>
+
 				</li>
 			</ul>
 			<ul class="hd">
@@ -226,7 +239,10 @@
 				<li></li>
 			</ul>
 		</div>
-		<div class="videos"></div>
+		<div class='mask'>
+			<div class="videos"></div>
+		</div>
+
 	</div>
 	<script type="text/javascript">
 		jQuery(".focusBox").slide({ mainCell: ".pic", effect: "fold", autoPlay: true, interTime: 5000, trigger: "click" });
@@ -457,7 +473,7 @@
 			<div class="slideBox">
 				<a class="sPrev" href="javascript:void(0)"></a>
 				<ul id='qapxxx'>
-					<li class='slide20'>
+					<li class='slide24'>
 						<div class='inner'>
 							<div class="_icon">
 								<img src="./imgs/retail/train/underline/zongcaiceleban.png" alt="">
@@ -505,7 +521,7 @@
 							<div class="_btn">查看详情</div>
 						</div>
 					</li>
-					<li class='slide24'>
+					<li class='slide20'>
 						<div class='inner'>
 							<div class="_icon">
 								<img src="./imgs/retail/train/underline/tuoke.png" alt="">
@@ -533,8 +549,7 @@
 				<a class="sNext" href="javascript:void(0)"></a>
 			</div><!-- slideBox End -->
 		</div><!-- parBd End -->
-		<div class='more' > <a href="train.html">了解更多<img src="./imgs/retail/train/long-arrow.png"
-					alt=""></a></div>
+		<div class='more'> <a href="train.html">了解更多<img src="./imgs/retail/train/long-arrow.png" alt=""></a></div>
 		<script type="text/javascript">
 			jQuery(".slideGroup .slideBox").slide({ mainCell: "ul", vis: 5, prevCell: ".sPrev", nextCell: ".sNext", effect: "leftLoop" });
 			jQuery(".slideGroup").slide({ titCell: ".parHd li", mainCell: ".parBd" });
@@ -833,6 +848,8 @@
 
 	$('.videolist').each(function () { //遍历视频列表
 		$(this).click(function () { //这个视频被点击后执行
+			$('.mask').css("display","block")
+			var img = $(this).attr('vpath');
 			var img = $(this).attr('vpath');//获取视频预览图
 			var video = $(this).attr('ipath');//获取视频路径
 			$('.videos').html("<video id=\"video\" poster='" + img + "' style='width: 1080px' src='" + video + "' preload=\"auto\" controls=\"controls\" autoplay=\"autoplay\"></video><img onClick=\"close1()\" class=\"vclose\" src=\"imgs/gb.png\" width=\"25\" height=\"25\">");
@@ -843,8 +860,14 @@
 	function close1() {
 		var v = document.getElementById('video');//获取视频节点
 		$('.videos').hide();//点击关闭按钮关闭暂停视频
+		$('.mask').css("display","none")
 		v.pause();
 		$('.videos').html();
 	}
+	$(window).resize(function() {
+		console.log(2222)
+		$('body').css('width','1600px');
+	});
 </script>
+
 </html>
