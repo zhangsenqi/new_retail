@@ -1,0 +1,15 @@
+._mission {
+    color: #fff;
+    text-align: center;
+    height: 168px;
+    background: url(../imgs/about/ziyuan.png) no-repeat;
+    background-size: cover;
+  }
+  ._mission h3 {
+    font-size: 36px;
+    padding-top: 40px;
+  }
+  ._mission h4 {
+    font-size: 24px;
+    padding-top: 22px;
+  }

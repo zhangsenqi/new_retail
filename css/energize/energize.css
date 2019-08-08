@@ -65,6 +65,7 @@
   text-align: left;
 }
 ._energize h4 {
+  /* padding-top:30px; */
   font-size: 20px;
   color: rgba(17, 17, 17, 1);
 }
@@ -82,7 +83,8 @@
   -o-border-radius: 50%;
 }
 ._energize ._desc {
-  padding: 20px 25px;
+  padding: 10px 25px;
+  padding-bottom: 20px;
   font-size: 18px;
   color: rgba(102, 102, 102, 1);
   line-height: 36px;

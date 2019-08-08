@@ -80,11 +80,11 @@ acronym {
 
 /* Public */
 html {
-  width: 100%;
+  width:100%;
 }
 body {
-  width: 100%;
-  font: 12px/20px Microsoft YaHei, SimSun, Tahoma, Helvetica, Arial, sans-serif;
+  width:100%;
+  font: 12px/20px PingFang SC, Microsoft YaHei, SimSun, Tahoma, Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: none;
 }
 .fl {

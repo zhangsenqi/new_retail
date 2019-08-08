@@ -123,7 +123,7 @@
 } */
 .slideGroup .slideBox ._right-content-item:hover{
     background: url(../../imgs/system/award/hoverbg.png) no-repeat 0px 0px;
-    box-shadow: 4px 4px 14px #ccc;
+    box-shadow: 4px 4px 14px #e3e3e4;
 }
 
 .slideGroup .slideBox ._right-content-item ._word {

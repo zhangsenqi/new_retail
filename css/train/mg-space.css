@@ -53,17 +53,19 @@
     font-size:40px;
     margin-left: 20px;
     text-align: center;
+    
 }
 ._online .container h4{
     padding-top: 30px;
     color: #666;
-    font-size:18;
+    font-size:18px;
     text-align: center;
     padding-bottom: 50px;
 }
 ._online ._text{
     text-align: center;
     padding-left:20px;
+    font-size:18px;
 }
 ._online  ._text img{
     margin:20px 0;
