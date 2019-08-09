@@ -404,15 +404,19 @@
   }
 }
 ._train ._team {
-  background-color: #04080B;
+  height: 420px;
+  padding-top: 68px;
+  background: url(../../imgs/train/stars/blackbg.png) no-repeat center center
 }
 ._train ._group {
-  background:linear-gradient(0deg,rgba(0,0,0,1),rgba(32,0,0,1),rgba(0,0,0,1));
-  height: 450px;
+  height: 420px;
   margin-top: 20px;
+  padding-top: 14px;
+  background: url(../../imgs/train/stars/huibg.png) no-repeat center center;
 }
 ._train ._team img,._train ._group img {
-  width: 1200px;
+  width: 1150px;
+
 }
 ._mission {
   color: #1E1E1E;
@@ -423,7 +427,7 @@
 }
 ._mission h3 {
   font-size: 36px;
-  padding-top: 40px;
+  padding-top: 46px;
 }
 ._mission h4 {
   font-size: 24px;

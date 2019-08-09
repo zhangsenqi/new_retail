@@ -19,11 +19,14 @@
 	padding-bottom: 70px;
 }
 
-._footer ._footer-top-content ul li {
+._footer ._footer-top-content ul li,._footer ._footer-top-content ul li a {
 	padding-top: 18px;
 	font-size: 14px;
 	font-weight: 400;
 	color: rgba(185, 185, 185, 1);
+}
+._footer-top-content ul li a:hover {
+	color: #fff;
 }
 
 ._footer ._footer-top-content ul li img {
@@ -66,3 +69,4 @@
 ._footer ._foot-bottom li {
 	margin-right: 16px;
 }
+
