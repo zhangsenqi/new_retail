@@ -174,7 +174,7 @@
   background-color: #FD625C;
 }
 ._train .m-slide .tab .on  b {
-  background: url(images/dot.png) no-repeat;
+  /* background: url(images/dot.png) no-repeat; */
 
 }
 ._train .m-slide .tab .on  span {
@@ -427,5 +427,5 @@
 }
 ._mission h4 {
   font-size: 24px;
-  padding-top: 22px;
+  padding-top: 34px;
 }

@@ -1,5 +1,5 @@
 .video {
-    position: fixed;
+    position: absolute;
     z-index: 10000000;
     padding-left: 250px;
     margin-top: -50px;
