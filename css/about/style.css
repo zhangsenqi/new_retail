@@ -194,7 +194,7 @@ h2 {
 }
 ._honor ._img img {
   margin: 40px 64px;
-  box-shadow:0px 6px 9px 1px rgba(0, 0, 0, 0.47);
+  /* box-shadow:0px 6px 9px 1px rgba(0, 0, 0, 0.47); */
 }
 ._honor ._img ._mr {
   margin-right: 0px !important;

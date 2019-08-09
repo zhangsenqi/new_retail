@@ -4,7 +4,7 @@
   height: 940px;
   overflow: hidden;
   color: #fff;
-  
+  margin:0 auto;
 }
 .focusBox .pic {
   position: relative;

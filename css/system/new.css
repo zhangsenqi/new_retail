@@ -85,7 +85,7 @@
 
 .slideGroup .slideBox ._right {
     display: flex;
-    cursor: pointer;
+    /* cursor: pointer; */
     width: 980px;
     height: 370px;
     /* background: url(../../imgs/system/award/bigbg.png) no-repeat 0px 0px; */
