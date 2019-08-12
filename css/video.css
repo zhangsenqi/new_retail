@@ -8,8 +8,8 @@
 .videolist {
     position: relative;
     float: left;
-    width: 840px;
-    height: 300px;
+    width:130px;
+    height: 38px;
     margin-left: 40px;
     /* margin-right: 50px; */
     margin-top: 30px;
@@ -21,8 +21,8 @@
 }
 
 .videolist .bottom {
-    width: 170px;
-    height: 60px;
+    width: 130px;
+    height:38px;
     background: url(../imgs/retail/banner/anniu.png) no-repeat ;
 }
 

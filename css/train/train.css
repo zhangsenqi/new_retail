@@ -234,6 +234,7 @@
 ._train ._boss ._left {
   color: #fff;
   padding: 30px 16px 0 0;
+  width: 286px;
 }
 ._train ._boss ._left h5 {
   color: #fff;
@@ -250,14 +251,14 @@
 ._train ._boss ._left ul {
   padding-top: 20px;
   color: #f2f2f2;
-  font-size: 16px;
-  line-height: 38px;
+  font-size: 14px;
+  line-height: 30px;
 }
 ._train ._boss ._left ul._small {
   padding-top: 12px;
   color: #f2f2f2;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 14px;
+  line-height: 28px;
 }
 
 

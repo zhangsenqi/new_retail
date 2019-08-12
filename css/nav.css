@@ -1,23 +1,17 @@
 .c-nav {
   background-color: transparent;
   height: 70px;
-  position: absolute;
+  position: fixed;
+  z-index:10000;
   width: 100%;
-}
-
-.c-nav:hover {
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  z-index: 10000;
-  width: 100%;
-  height: 70px;
+  background-color:rgba(0,0,0,0.8);
 }
 .c-nav .nav-logo {
   width: 1200px;
-  padding: 40 60px;
+  padding: 6px 0px;
   position: absolute;
   z-index: 1000;
-  top: 20px;
+  top: 10px;
   left: 0px;
 }
 .c-nav .nav-logo .logo {
@@ -46,7 +40,7 @@
   float: right;
 }
 .c-nav .nav {
-  width: 600px;
+  width: 390px;
   font-family: "Microsoft YaHei", SimSun, SimHei;
 }
 .c-nav .nav h3 {
@@ -80,8 +74,8 @@
   width: 108px;
   padding: 10px 0;
   position: absolute;
-  top: 42px;
-  background: rgba(0, 0, 0, 0.5);
+  top: 46px;
+  background: rgba(0,0,0,0.8);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
   float: left;
   line-height: 30px;
@@ -135,7 +129,7 @@
   z-index: 1;
   width: 600px;
   margin-top:8px;
-  left: -118px;
+  left: -326px;
 }
 .c-nav .nav #m3 .sub {
   z-index: 1;

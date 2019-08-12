@@ -202,7 +202,7 @@ h2 {
 /*关于我们start*/
 .times {
   width: 100%;
-  height:600px;
+  height:500px;
   background-color: #333;
   background: #f4f4f4 url(../../imgs/about/ditu.png) no-repeat 60% 20%;background-size:  auto 80%;
 }

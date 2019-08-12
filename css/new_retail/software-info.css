@@ -1,5 +1,6 @@
 .section {
-    height: 1030px;
+    height: 1070px;
+    border:1px solid transparent;
 }
 ._retail_title {
     text-align: center
@@ -80,7 +81,7 @@
 }
  ._icon:hover ._title {
    color: #FD625C;
-   margin-bottom: 30px;
+   margin-bottom: 10px;
 }
  ._icon:hover ._desc {
     visibility: visible;
@@ -91,6 +92,9 @@
     color:#333;
     margin: 30px 0;
     cursor:pointer;
+}
+._retail_second-footer a:hover {
+    color: #FD625C;
 }
 ._retail_second-footer span {
     font-size: 14px;
